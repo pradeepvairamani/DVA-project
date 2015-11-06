@@ -1,6 +1,6 @@
 window.onload = function() {
 
-var words = [
+words = [
     {
         "group":"n",
         "word":"main node",
@@ -181,10 +181,31 @@ function color(d) {
 
 // Toggle children on click.
 function click(d) {
+    $.get("http://localhost:8082/",function(data){
+        window.alert(data);
+        console.log("was2");
+    }).fail(function(){
+        window.alert("hney");
+    });
+    console.log("was");
     if (d.children) {
+        root.children.push({
+                        "group":"p",
+                        "name":"sub sub node 9"
+                    });
+            // d.children.push({
+            //                 "group":"r",
+            //                 "name":"sub sub node 9"
+            //             });
         d._children = d.children;
         d.children = null;
     } else {
+        // d._children = [];
+        // d._children.push({
+        //                 "group":"r",
+        //                 "name":"sub sub node 9"
+        //             });
+        
         d.children = d._children;
         d._children = null;
     }
