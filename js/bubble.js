@@ -1,3 +1,5 @@
+window.onload = function() {
+
 var words = [
     {
         "group":"n",
@@ -93,6 +95,7 @@ root.y = h / 2 - 80;
 update();
 
 function update() {
+    // window.alert(svg);
     var nodes = flatten(root),
     links = d3.layout.tree().links(nodes);
 
@@ -202,3 +205,4 @@ function flatten(root) {
     root.size = recurse(root);
     return nodes;
 }
+};
