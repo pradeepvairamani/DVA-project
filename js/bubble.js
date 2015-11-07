@@ -139,6 +139,7 @@ function update() {
         .attr("r", radius)
         .style("fill", color)
         .on("click", click)
+        .on("dblclick", dblclick)
         .call(force.drag);
 
     // Exit any old nodes.
@@ -182,10 +183,10 @@ function color(d) {
 // Toggle children on click.
 function click(d) {
     $.get("http://localhost:8082/",function(data){
-        window.alert(data);
-        console.log("was2");
+        // window.alert(data);
+        // console.log("was2");
     }).fail(function(){
-        window.alert("hney");
+        // window.alert("hney");
     });
     console.log("was");
     if (d.children) {
@@ -211,6 +212,14 @@ function click(d) {
     }
     update();
 }
+
+function dblclick(d) {
+    $.get("http://localhost:8082/details/645",function(data){
+        window.alert(data);
+    });
+}
+
+
 
 // Returns a list of all nodes under the root.
 function flatten(root) {
