@@ -215,7 +215,7 @@ function click(d) {
 
 function dblclick(d) {
     $.get("http://localhost:8082/details/645",function(data){
-        window.alert(data);
+        // window.alert(data);
     });
 }
 
