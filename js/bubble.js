@@ -71,8 +71,8 @@ words = [
     }
 ];
 
-var w = 600,
-    h = 600,
+var w = window.innerWidth - $(".col-md-3").width() - 100,
+    h = window.innerHeight,
     radius = 10,
     node,
     link,
