@@ -112,15 +112,23 @@ function update() {
 
 function tick() {
     node.attr("cx", function(d) { 
-            if(d.id != global_id){  d.fixed = false;    }
+            if(d.id != global_id){  d.fixed = false;  }
             else{   d.x = w/2;  d.y = h/2;    }
             
             return d.x = Math.max(radius, Math.min(w - radius, d.x)); 
         })
         .attr("cy", function(d) { return d.y = Math.max(radius, Math.min(h - radius, d.y)); })
         .attr("r", function(d){
-            if(d.group == curr_grpid){return small_radius*1.5}
-            return small_radius;
+                if(d.id == global_id){ return small_radius * 2.5; }
+                return small_radius;            
+        })
+        .style("stroke", function(d){
+            if(d.id == global_id){ return "black"; }
+            return "black";            
+        })
+        .style("stroke-width", function(d){
+            if(d.id == global_id){ return 5; }
+            return 1;            
         });
 
     link.attr("x1", function(d) { return d.source.x; })
@@ -174,18 +182,17 @@ function flatten(root) {
     return nodes;
 }
 
+var colorarr = d3.scale.category10();
 // Color leaf nodes orange, and packages white or blue.
 function color(d) {
-    group = d.group % 5;
-    if(d._children){    return "#95a5a6";    }
-    else{
-        switch(group) {
-            case 1: return "#e74c3c"; break;
-            case 2: return "#3498db"; break;
-            case 3: return "#2ecc71"; break;
-            case 4: return "#e78229"; break;
-            case 5: return "#9b59b6"; break;
-        }
+    //return color(d.group % 10)-1);
+    group = d.group % 5 + 1;
+    switch(group) {
+        case 1: return "#e74c3c"; break;
+        case 2: return "#3498db"; break;
+        case 3: return "#2ecc71"; break;
+        case 4: return "#e78229"; break;
+        case 5: return "#9b59b6"; break;
     }
 }
 
