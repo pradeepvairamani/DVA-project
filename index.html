@@ -17,27 +17,83 @@
                 <div class="profile-userpic">
                     <div class="profile-usertitle">
                         <div class="profile-usertitle-name">
-                            Marcus Doe
+                            Noam Chomsky
                         </div>
                         <div class="profile-usertitle-job">
-                            Developer
+                            MIT
                         </div>
                     </div>
+
+                    <div class = "panel-group" id = "accordion">
+   <div class = "panel panel-default">
+   
+   <div class = "panel panel-success">
+      <div class = "panel-heading">
+         <h4 class = "panel-title">
+            <a data-toggle = "collapse" data-parent = "#accordion" href = "#collapseTwo">
+               Publications
+            </a>
+         </h4>
+      </div>
+      
+      <div id = "collapseTwo" class = "panel-collapse collapse">
+         <div class = "panel-body">
+            <ul class="list-group">
+  <li class="list-group-item"> Noam Chomsky on the Responsibility of Intellectuals</li>
+  <li class="list-group-item"> Systems of Syntactic Analysis</li>
+  <li class="list-group-item"> Three models for the description of language</li>
+  <li class="list-group-item"> Aspects of the Theory of Syntax</li>
+  <li class="list-group-item"> Objectivity and Liberal Scholarship</li>
+</ul>
+         </div>
+      </div>
+      
+   </div>
+   
+   <div class = "panel panel-info">
+      <div class = "panel-heading">
+         <h4 class = "panel-title">
+            <a data-toggle = "collapse" data-parent = "#accordion" href = "#collapseThree">
+               Other Affiliations
+            </a>
+         </h4>
+      </div>
+      
+      <div id = "collapseThree" class = "panel-collapse collapse">
+         <div class = "panel-body">
+            <ul class="list-group">
+  <li class="list-group-item">University of Pennsylvania</li>
+  <li class="list-group-item">Harvard University</li>
+  <li class="list-group-item">Columbia University</li>
+  <li class="list-group-item">Georgetown University</li>
+  <li class="list-group-item">University of Chicago</li>
+</ul>
+         </div>
+      </div>
+   </div>
+      
+   </div>
+</div>
+
+<script type = "text/javascript">
+   $(function () { $('#collapseFour').collapse({
+      toggle: false
+   })});
+  
+   $(function () { $('#collapseTwo').collapse('show')});
+   $(function () { $('#collapseThree').collapse('toggle')});
+   $(function () { $('#collapseOne').collapse('hide')});
+</script>  
                 <!-- END SIDEBAR USER TITLE -->
                 <!-- SIDEBAR BUTTONS -->
-                <div class="profile-userbuttons">
+<!--                 <div class="profile-userbuttons">
                     <button type="button" class="btn btn-success btn-sm">Follow</button>
                     <button type="button" class="btn btn-danger btn-sm">Message</button>
                 </div>
-                <!-- END SIDEBAR BUTTONS -->
+ -->                <!-- END SIDEBAR BUTTONS -->
                 <!-- SIDEBAR MENU -->
-                <div class="profile-usermenu">
+<!--                 <div class="profile-usermenu">
                     <ul class="nav">
-                        <li class="active">
-                            <a href="#">
-                            <i class="glyphicon glyphicon-home"></i>
-                            Overview </a>
-                        </li>
                         <li>
                             <a href="#">
                             <i class="glyphicon glyphicon-user"></i>
@@ -53,7 +109,7 @@
                             <i class="glyphicon glyphicon-flag"></i>
                             Help </a>
                         </li>
-                    </ul>
+                    </ul> -->
                 <!-- END MENU -->
                 </div>
             </div>
