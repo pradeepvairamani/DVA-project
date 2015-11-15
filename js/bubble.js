@@ -1,167 +1,47 @@
 window.onload = function() {
 
 function getgroup_ni(if_inc){
-    if( typeof getgroup_ni.counter == 'undefined' ) {
-            getgroup_ni.counter = 1;  
-        }
+    if( typeof getgroup_ni.counter == 'undefined' ) {   getgroup_ni.counter = 1;    }
     var temp = getgroup_ni.counter;
-    if(if_inc){
-        getgroup_ni.counter++;
-    }
+    if(if_inc){ getgroup_ni.counter++;  }
     return temp;
 }
 
 function getid(){
-    if( typeof getid.counter == 'undefined' ) {
-            getid.counter = 1;  
-        }
-        else{getid.counter++;}
+    if( typeof getid.counter == 'undefined' ) { getid.counter = 1; }
+    else{   getid.counter++;    }
     return getid.counter;
-    }
+}
 
 var w = window.innerWidth - $(".col-md-3").width() - 100,
     h = window.innerHeight,
-    radius = 10,
-    node,
-    link,
-    root;
+    radius = 10, node,link,root;
 
-words = [
-    {
-        "group":getgroup_ni(false),
-        "word":"main node",
-        "id":getid(),
-        x: w/2,
-                y: h/2,
-                fixed:false,
-        "children":
-        [
-            {
-                "group":getgroup_ni(false),
-                "name":"sub node 1",
-                "id":getid(),
-        x: w/2,
-                y: h/2,
-                fixed:false
-            },
-            {
-                "group":getgroup_ni(false),
-                "name":"sub node 2",
-                "id":getid(),
-        x: w/2,
-                y: h/2,
-                fixed:false
-            },
-            {
-                "group":getgroup_ni(false),
-                "name":"sub node 3",
-                "id":getid(),
-                x: w/2,
-                y: h/2,
-                fixed:false
-            },
-            {
-                "group":getgroup_ni(false),
-                "name":"sub node 4",
-                "id":getid(),
-        x: w/2,
-                y: h/2,
-                fixed:false
-            },
-            {
-                "group":getgroup_ni(false),
-                "name":"sub node 5",
-                "id":getid(),
-        x: w/2,
-                y: h/2,
-                fixed:false
-            },
-            {
-                "group":getgroup_ni(false),
-                "name":"sub node 6",
-                "id":getid(),
-        x: w/2,
-                y: h/2,
-                fixed:false
-            },
-            {
-                "group":getgroup_ni(false),
-                "name":"sub node 7",
-                "id":getid(),
-        x: w/2,
-                y: h/2,
-                fixed:false
-            },
-            {
-                "group":getgroup_ni(false),
-                "name":"sub node 8",
-                "id":getid(),
-        x: w/2,
-                y: h/2,
-                fixed:false
-            },
-            {
-                "group":getgroup_ni(false),
-                "name":"sub node 9",
-                "id":getid(),
-        x: w/2,
-                y: h/2,
-                fixed:false
-            },
-            {
-                "group":getgroup_ni(false),
-                "name":"sub node 10",
-                "id":getid(),
-        x: w/2,
-                y: h/2,
-                fixed:false
-            },
-            {
-                "group":getgroup_ni(false),
-                "name":"sub node 11",
-                "id":getid(),
-        x: w/2,
-                y: h/2,
-                fixed:false
-            },
-            {
-                "group":getgroup_ni(true),
-                "name":"sub node 12",
-                "id":getid(),
-        x: w/2,
-                y: h/2,
-                fixed:false,
-                "children":
-                [
-                    {
-                        "group":getgroup_ni(false),
-                        "name":"sub sub node 1",
-                        "id":getid(),
-        x: w/2,
-                y: h/2,
-                fixed:false
-                    },
-                    {
-                        "group":getgroup_ni(false),
-                        "name":"sub sub node 2",
-                        "id":getid(),
-        x: w/2,
-                y: h/2,
-                fixed:false
-                    },
-                    {
-                        "group":getgroup_ni(true),
-                        "name":"sub sub node 3",
-                        "id":getid(),
-        x: w/2,
-                y: h/2,
-                fixed:false
-                    }
-                ]
-            }
-        ]
-    }
-];
+function getnodeobj(group,name){
+    var obj = new Object();
+    obj.group = group;
+    obj.x=w/2;
+    obj.y=h/2;
+    obj.fixed = false;
+    obj.id=getid();
+    if( typeof name == 'undefined' ) {  obj.name = name;    }
+    else{ obj.name = "sub node " + obj.id;  }
+    return obj;
+}
+
+words = [ getnodeobj(getgroup_ni(true,"main node")), ];
+
+words[0].children = [];
+var group = words[0].group;
+for (i = 0; i < 10; i++) { 
+    words[0].children.push(getnodeobj(group));
+}
+
+words[0].children[words[0].children.length-1].children = [];
+var group = getgroup_ni(true);
+for (i = 0; i < 3; i++) { 
+    words[0].children[words[0].children.length -1].children.push(getnodeobj(group));
+}
 
 var force = d3.layout.force()
     .on("tick", tick)
@@ -211,7 +91,7 @@ function update() {
         .style("fill", color)
         .on("click", click)
         .on("dblclick", dblclick)
-        .call(force.drag);
+        //.call(force.drag);
 
     // Exit any old nodes.
     node.exit().remove();
@@ -230,12 +110,9 @@ function update() {
 
 function tick() {
     node.attr("cx", function(d) { 
-            if(d.id != global_id){
-                d.fixed = false;
-            }
-            else{
-                d.x=w/2;d.y=h/2;
-            }
+            if(d.id != global_id){  d.fixed = false;    }
+            else{   d.x = w/2;  d.y = h/2;    }
+            
             return d.x = Math.max(radius, Math.min(w - radius, d.x)); 
         })
         .attr("cy", function(d) { return d.y = Math.max(radius, Math.min(h - radius, d.y)); });
@@ -250,29 +127,18 @@ function tick() {
 function click(d) {
     global_id = d.id;
     d.fixed = true;
-    // d.x = w/2;
-    // d.y = h/2;
     $.get("http://localhost:8082/",function(data){
-    }).fail(function(){
-        // window.alert("hney");
-    });
+    }).fail(function(){});
 
     if (d.children) {
         d._children = d.children;
         d.children = null;
-    } else {
+    } 
+    else {
         d._children = [];
         var group = getgroup_ni(true);
         for (i = 0; i < 10; i++) { 
-
-        d._children.push({
-                        "group":group,
-                        "name":"sub sub node 9",
-                        "id":getid(),
-        x: w/2,
-                y: h/2,
-                fixed:false
-                    });
+            d._children.push(getnodeobj(group));
         }
         d.children = d._children;
         d._children = null;
@@ -283,9 +149,7 @@ function click(d) {
 }
 
 function dblclick(d) {
-    $.get("http://localhost:8082/details/645",function(data){
-         window.alert(data);
-    });
+    $.get("http://localhost:8082/details/645",function(data){ window.alert(data); });
 }
 
 // Returns a list of all nodes under the root.
@@ -306,24 +170,14 @@ function flatten(root) {
 // Color leaf nodes orange, and packages white or blue.
 function color(d) {
     group = d.group % 5;
-    if(d._children){
-        return "#95a5a6";
-    }else{
+    if(d._children){    return "#95a5a6";    }
+    else{
         switch(group) {
-            case 1: //adverb
-                return "#e74c3c";
-                break;
-            case 2: //noun
-                return "#3498db";
-                break;
-            case 3: //verb
-                return "#2ecc71";
-                break;
-            case 4: //adjective
-                return "#e78229";
-                break;
-            case 5: //adjective
-                return "#9b59b6";
+            case 1: return "#e74c3c"; break;
+            case 2: return "#3498db"; break;
+            case 3: return "#2ecc71"; break;
+            case 4: return "#e78229"; break;
+            case 5: return "#9b59b6"; break;
         }
     }
 }
