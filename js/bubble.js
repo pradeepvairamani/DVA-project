@@ -11,70 +11,151 @@ function getgroup_ni(if_inc){
     return temp;
 }
 
+function getid(){
+    if( typeof getid.counter == 'undefined' ) {
+            getid.counter = 1;  
+        }
+        else{getid.counter++;}
+    return getid.counter;
+    }
+
+var w = window.innerWidth - $(".col-md-3").width() - 100,
+    h = window.innerHeight,
+    radius = 10,
+    node,
+    link,
+    root;
+
 words = [
     {
         "group":getgroup_ni(false),
         "word":"main node",
-        "children":[
+        "id":getid(),
+        x: w/2,
+                y: h/2,
+                fixed:false,
+        "children":
+        [
             {
                 "group":getgroup_ni(false),
-                "name":"sub node 1"
+                "name":"sub node 1",
+                "id":getid(),
+        x: w/2,
+                y: h/2,
+                fixed:false
             },
             {
                 "group":getgroup_ni(false),
-                "name":"sub node 2"
+                "name":"sub node 2",
+                "id":getid(),
+        x: w/2,
+                y: h/2,
+                fixed:false
             },
             {
                 "group":getgroup_ni(false),
-                "name":"sub node 3"
+                "name":"sub node 3",
+                "id":getid(),
+                x: w/2,
+                y: h/2,
+                fixed:false
             },
             {
                 "group":getgroup_ni(false),
-                "name":"sub node 4"
+                "name":"sub node 4",
+                "id":getid(),
+        x: w/2,
+                y: h/2,
+                fixed:false
             },
             {
                 "group":getgroup_ni(false),
-                "name":"sub node 5"
+                "name":"sub node 5",
+                "id":getid(),
+        x: w/2,
+                y: h/2,
+                fixed:false
             },
             {
                 "group":getgroup_ni(false),
-                "name":"sub node 6"
+                "name":"sub node 6",
+                "id":getid(),
+        x: w/2,
+                y: h/2,
+                fixed:false
             },
             {
                 "group":getgroup_ni(false),
-                "name":"sub node 7"
+                "name":"sub node 7",
+                "id":getid(),
+        x: w/2,
+                y: h/2,
+                fixed:false
             },
             {
                 "group":getgroup_ni(false),
-                "name":"sub node 8"
+                "name":"sub node 8",
+                "id":getid(),
+        x: w/2,
+                y: h/2,
+                fixed:false
             },
             {
                 "group":getgroup_ni(false),
-                "name":"sub node 9"
+                "name":"sub node 9",
+                "id":getid(),
+        x: w/2,
+                y: h/2,
+                fixed:false
             },
             {
                 "group":getgroup_ni(false),
-                "name":"sub node 10"
+                "name":"sub node 10",
+                "id":getid(),
+        x: w/2,
+                y: h/2,
+                fixed:false
             },
             {
                 "group":getgroup_ni(false),
-                "name":"sub node 11"
+                "name":"sub node 11",
+                "id":getid(),
+        x: w/2,
+                y: h/2,
+                fixed:false
             },
             {
                 "group":getgroup_ni(true),
                 "name":"sub node 12",
-                "children":[
+                "id":getid(),
+        x: w/2,
+                y: h/2,
+                fixed:false,
+                "children":
+                [
                     {
                         "group":getgroup_ni(false),
-                        "name":"sub sub node 1"
+                        "name":"sub sub node 1",
+                        "id":getid(),
+        x: w/2,
+                y: h/2,
+                fixed:false
                     },
                     {
                         "group":getgroup_ni(false),
-                        "name":"sub sub node 2"
+                        "name":"sub sub node 2",
+                        "id":getid(),
+        x: w/2,
+                y: h/2,
+                fixed:false
                     },
                     {
                         "group":getgroup_ni(true),
-                        "name":"sub sub node 3"
+                        "name":"sub sub node 3",
+                        "id":getid(),
+        x: w/2,
+                y: h/2,
+                fixed:false
                     }
                 ]
             }
@@ -82,32 +163,21 @@ words = [
     }
 ];
 
-var w = window.innerWidth - $(".col-md-3").width() - 100,
-    h = window.innerHeight,
-    radius = 50,
-    node,
-    link,
-    root;
-console.log("height" +h);
-console.log("width" +w);
 var force = d3.layout.force()
     .on("tick", tick)
     .charge(function(d) { return -300; })
-    .linkDistance(function(d) { return d.target._children ? 500 : 250; })
+    .linkDistance(function(d) { return d.target._children ? 1000/radius : 500/radius; })
     .size([w, h - 160]);
 
 var svg = d3.select("body").append("svg")
     .attr("width", w)
     .attr("height", h);
 
-root = words[0]; //set root node
-root.fixed = true;
-root.x = w / 2;
-root.y = h / 2 - 80;
+root = words[0];
 update();
+var global_id = 1;
 
 function update() {
-    // window.alert(svg);
     var nodes = flatten(root),
     links = d3.layout.tree().links(nodes);
 
@@ -121,18 +191,7 @@ function update() {
     link = svg.selectAll(".link")
         .data(links);
 
-    // Enter any new links.
-    link.enter().insert("svg:line", ".node")
-        .attr("class", "link")
-        .attr("x1", function(d) { return d.source.x; })
-        .attr("y1", function(d) { return d.source.y; })
-        .attr("x2", function(d) { return d.target.x; })
-        .attr("y2", function(d) { return d.target.y; });
-
-    // Exit any old links.
-    link.exit().remove();
-
-    // Update the nodes…
+        // Update the nodes…
     node = svg.selectAll("circle.node")
         .data(nodes)
         .style("fill", color);
@@ -156,18 +215,92 @@ function update() {
 
     // Exit any old nodes.
     node.exit().remove();
-}
-
-function tick() {
-    node.attr("cx", function(d) { return d.x = Math.max(radius, Math.min(w - radius, d.x)); })
-          .attr("cy", function(d) { return d.y = Math.max(radius, Math.min(h - radius, d.y)); });
-
-          link.attr("x1", function(d) { return d.source.x; })
+    
+    // Enter any new links.
+    link.enter().insert("svg:line", ".node")
+        .attr("class", "link")
+        .attr("x1", function(d) { return d.source.x; })
         .attr("y1", function(d) { return d.source.y; })
         .attr("x2", function(d) { return d.target.x; })
         .attr("y2", function(d) { return d.target.y; });
 
-    
+    // Exit any old links.
+    link.exit().remove();
+}
+
+function tick() {
+    node.attr("cx", function(d) { 
+            if(d.id != global_id){
+                d.fixed = false;
+            }
+            else{
+                d.x=w/2;d.y=h/2;
+            }
+            return d.x = Math.max(radius, Math.min(w - radius, d.x)); 
+        })
+        .attr("cy", function(d) { return d.y = Math.max(radius, Math.min(h - radius, d.y)); });
+
+    link.attr("x1", function(d) { return d.source.x; })
+        .attr("y1", function(d) { return d.source.y; })
+        .attr("x2", function(d) { return d.target.x; })
+        .attr("y2", function(d) { return d.target.y; });
+}
+
+// Toggle children on click.
+function click(d) {
+    global_id = d.id;
+    d.fixed = true;
+    // d.x = w/2;
+    // d.y = h/2;
+    $.get("http://localhost:8082/",function(data){
+    }).fail(function(){
+        // window.alert("hney");
+    });
+
+    if (d.children) {
+        d._children = d.children;
+        d.children = null;
+    } else {
+        d._children = [];
+        var group = getgroup_ni(true);
+        for (i = 0; i < 10; i++) { 
+
+        d._children.push({
+                        "group":group,
+                        "name":"sub sub node 9",
+                        "id":getid(),
+        x: w/2,
+                y: h/2,
+                fixed:false
+                    });
+        }
+        d.children = d._children;
+        d._children = null;
+    }
+    update();
+    tick(); // anyhow called again after this function call, but calling here is just fo flush previous fixed value.
+            // In the next auto tick call after this, links will be readjusted on the basis of the new value;
+}
+
+function dblclick(d) {
+    $.get("http://localhost:8082/details/645",function(data){
+         window.alert(data);
+    });
+}
+
+// Returns a list of all nodes under the root.
+function flatten(root) {
+    var nodes = [], i = 0;
+
+    function recurse(node) {
+        if (node.children) node.size = node.children.reduce(function(p, v) { return p + recurse(v); }, 0);
+        if (!node.id) node.id = ++i;
+        nodes.push(node);
+        return node.size;
+    }
+
+    root.size = recurse(root);
+    return nodes;
 }
 
 // Color leaf nodes orange, and packages white or blue.
@@ -195,62 +328,4 @@ function color(d) {
     }
 }
 
-// Toggle children on click.
-function click(d) {
-    $.get("http://localhost:8082/",function(data){
-        // window.alert(data);
-        // console.log("was2");
-    }).fail(function(){
-        // window.alert("hney");
-    });
-    console.log("was");
-    if (d.children) {
-        // root.children.push({
-        //                 "group":"p",
-        //                 "name":"sub sub node 9"
-        //             });
-            // d.children.push({
-            //                 "group":getgroup_ni(false),
-            //                 "name":"sub sub node 9"
-            //             });
-        d._children = d.children;
-        d.children = null;
-    } else {
-        d._children = [];
-        var group = getgroup_ni(true);
-        for (i = 0; i < 10; i++) { 
-
-        d._children.push({
-                        "group":group,
-                        "name":"sub sub node 9"
-                    });
-        }
-        d.children = d._children;
-        d._children = null;
-    }
-    update();
-}
-
-function dblclick(d) {
-    $.get("http://localhost:8082/details/645",function(data){
-         window.alert(data);
-    });
-}
-
-
-
-// Returns a list of all nodes under the root.
-function flatten(root) {
-    var nodes = [], i = 0;
-
-    function recurse(node) {
-        if (node.children) node.size = node.children.reduce(function(p, v) { return p + recurse(v); }, 0);
-        if (!node.id) node.id = ++i;
-        nodes.push(node);
-        return node.size;
-    }
-
-    root.size = recurse(root);
-    return nodes;
-}
 };
