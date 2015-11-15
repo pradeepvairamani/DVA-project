@@ -13,9 +13,10 @@ function getid(){
     return getid.counter;
 }
 
+var small_radius = 10;
 var w = window.innerWidth - $(".col-md-3").width() - 100,
     h = window.innerHeight,
-    radius = 10, node,link,root;
+    radius = small_radius, node,link,root;
 
 function getnodeobj(group,name){
     var obj = new Object();
@@ -46,7 +47,7 @@ for (i = 0; i < 3; i++) {
 var force = d3.layout.force()
     .on("tick", tick)
     .charge(function(d) { return -300; })
-    .linkDistance(function(d) { return d.target._children ? 1000/radius : 500/radius; })
+    .linkDistance(function(d) { return d.target._children ? 1000/small_radius : 500/small_radius; })
     .size([w, h - 160]);
 
 var svg = d3.select("body").append("svg")
@@ -56,6 +57,7 @@ var svg = d3.select("body").append("svg")
 root = words[0];
 update();
 var global_id = 1;
+var curr_grpid = 1;
 
 function update() {
     var nodes = flatten(root),
@@ -115,7 +117,11 @@ function tick() {
             
             return d.x = Math.max(radius, Math.min(w - radius, d.x)); 
         })
-        .attr("cy", function(d) { return d.y = Math.max(radius, Math.min(h - radius, d.y)); });
+        .attr("cy", function(d) { return d.y = Math.max(radius, Math.min(h - radius, d.y)); })
+        .attr("r", function(d){
+            if(d.group == curr_grpid){return small_radius*1.5}
+            return small_radius;
+        });
 
     link.attr("x1", function(d) { return d.source.x; })
         .attr("y1", function(d) { return d.source.y; })
@@ -137,6 +143,7 @@ function click(d) {
     else {
         d._children = [];
         var group = getgroup_ni(true);
+        curr_grpid = group;
         for (i = 0; i < 10; i++) { 
             d._children.push(getnodeobj(group));
         }
