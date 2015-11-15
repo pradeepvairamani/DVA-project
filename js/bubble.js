@@ -25,8 +25,8 @@ function getnodeobj(group,name){
     obj.y=h/2;
     obj.fixed = false;
     obj.id=getid();
-    if( typeof name == 'undefined' ) {  obj.name = name;    }
-    else{ obj.name = "sub node " + obj.id;  }
+    if( typeof name == 'undefined' ) {  obj.name = "sub node " + obj.id;    }
+    else{ obj.name = name; }
     return obj;
 }
 
@@ -44,15 +44,28 @@ for (i = 0; i < 3; i++) {
     words[0].children[words[0].children.length -1].children.push(getnodeobj(group));
 }
 
+var tip = d3.tip()
+  .attr('class', 'd3-tip')
+  .offset([-10, 0])
+  .html(function(d) {
+    console.log(d);
+    return "<strong>Name:</strong> <span style='color:red'>" + d.name + "</span><br>\
+            <strong>Id:</strong> <span style='color:red'>" + d.id + "</span><br>\
+            <strong>Group:</strong> <span style='color:red'>" + d.group + "</span><br>\
+            <strong>Color:</strong> <span style='color:red'>" + color(d) + "</span>";
+  })
+
 var force = d3.layout.force()
     .on("tick", tick)
-    .charge(function(d) { return -300; })
+    .charge(function(d) { return -500; })
     .linkDistance(function(d) { return d.target._children ? 1000/small_radius : 500/small_radius; })
     .size([w, h - 160]);
 
 var svg = d3.select("body").append("svg")
     .attr("width", w)
     .attr("height", h);
+
+svg.call(tip);
 
 root = words[0];
 update();
@@ -82,8 +95,8 @@ function update() {
         .attr("r", radius);
 
     node.append("title")
-        .text(function(d) { return d.name; });
-
+        .text(function(d) { return d.name; })
+        
     // Enter any new nodes.
     node.enter().append("svg:circle")
         .attr("class", "node")
@@ -129,7 +142,10 @@ function tick() {
         .style("stroke-width", function(d){
             if(d.id == global_id){ return 5; }
             return 1;            
-        });
+        })
+        .on('mouseover', tip.show)
+        .on('mouseout', tip.hide);
+;
 
     link.attr("x1", function(d) { return d.source.x; })
         .attr("y1", function(d) { return d.source.y; })
