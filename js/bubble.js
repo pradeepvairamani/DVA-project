@@ -84,7 +84,7 @@ words = [
 
 var w = window.innerWidth - $(".col-md-3").width() - 100,
     h = window.innerHeight,
-    radius = 50,
+    radius = 10,
     node,
     link,
     root;
@@ -93,7 +93,7 @@ console.log("width" +w);
 var force = d3.layout.force()
     .on("tick", tick)
     .charge(function(d) { return -300; })
-    .linkDistance(function(d) { return d.target._children ? 500 : 250; })
+    .linkDistance(function(d) { return d.target._children ? 100 : 50; })
     .size([w, h - 160]);
 
 var svg = d3.select("body").append("svg")
