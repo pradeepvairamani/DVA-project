@@ -13,10 +13,13 @@ function getid(){
     return getid.counter;
 }
 
+var global_id = 1;
+var curr_grpid = 1;
+
 var small_radius = 10;
 var w = window.innerWidth - $(".col-md-3").width() - 100,
     h = window.innerHeight,
-    radius = small_radius, node,link,root;
+    radius = small_radius, node,link,root, text;
 
 function getnodeobj(group,name){
     var obj = new Object();
@@ -48,7 +51,6 @@ var tip = d3.tip()
   .attr('class', 'd3-tip')
   .offset([-10, 0])
   .html(function(d) {
-    console.log(d);
     return "<strong>Name:</strong> <span style='color:red'>" + d.name + "</span><br>\
             <strong>Id:</strong> <span style='color:red'>" + d.id + "</span><br>\
             <strong>Group:</strong> <span style='color:red'>" + d.group + "</span><br>\
@@ -57,8 +59,8 @@ var tip = d3.tip()
 
 var force = d3.layout.force()
     .on("tick", tick)
-    .charge(function(d) { return -500; })
-    .linkDistance(function(d) { return d.target._children ? 1000/small_radius : 500/small_radius; })
+    .charge(function(d) { return d.group == curr_grpid ? -1500 : -700; })
+    .linkDistance(function(d) { return d.group == curr_grpid ? 1000/small_radius : 500/small_radius; })
     .size([w, h - 160]);
 
 var svg = d3.select("body").append("svg")
@@ -69,10 +71,9 @@ svg.call(tip);
 
 root = words[0];
 update();
-var global_id = 1;
-var curr_grpid = 1;
 
 function update() {
+    d3.selectAll("svg > *").remove();
     var nodes = flatten(root),
     links = d3.layout.tree().links(nodes);
 
@@ -106,11 +107,26 @@ function update() {
         .style("fill", color)
         .on("click", click)
         .on("dblclick", dblclick)
-        //.call(force.drag);
+        .call(force.drag);
 
+    text = svg.selectAll("text.node")
+        .attr("class", "node")
+        .data(nodes)
+        .enter().append("svg:text")
+        .filter(function(d){ return (d.group == curr_grpid) ||((d.id != global_id)&&(d.children != null)); })
+        .attr("dx", 12)
+        .attr("dy", ".35em")
+        .text(function(d) { return d.name })
+        .attr("font-family", "sans-serif")
+        .attr("font-size", "12px")
+        .attr("font-weight", "bold")
+        .attr("fill", "brown")
+        .attr("x", function(d) { return d.x; })
+        .attr("y", function(d) { return d.y; });
+    
     // Exit any old nodes.
     node.exit().remove();
-    
+       
     // Enter any new links.
     link.enter().insert("svg:line", ".node")
         .attr("class", "link")
@@ -145,8 +161,12 @@ function tick() {
         })
         .on('mouseover', tip.show)
         .on('mouseout', tip.hide);
-;
 
+    //node.attr("transform", function(d) { return "translate(" + d.x + "," + d.y + ")"; });
+    text.filter(function(d){return (d.group == curr_grpid) ||((d.id != global_id)&&(d.children != null));})
+        .attr("x", function(d) { return d.x; })
+        .attr("y", function(d) { return d.y; });
+    
     link.attr("x1", function(d) { return d.source.x; })
         .attr("y1", function(d) { return d.source.y; })
         .attr("x2", function(d) { return d.target.x; })
@@ -165,14 +185,13 @@ function click(d) {
         d.children = null;
     } 
     else {
-        d._children = [];
+        d._children = null;
+        d.children = [];
         var group = getgroup_ni(true);
         curr_grpid = group;
         for (i = 0; i < 10; i++) { 
-            d._children.push(getnodeobj(group));
+            d.children.push(getnodeobj(group));
         }
-        d.children = d._children;
-        d._children = null;
     }
     update();
     tick(); // anyhow called again after this function call, but calling here is just fo flush previous fixed value.
@@ -213,3 +232,15 @@ function color(d) {
 }
 
 };
+
+// node.enter().append("svg:text")
+    //     .attr("class", "text")
+    //   .attr("dx", 12)
+    //   .attr("dy", ".35em")
+    //   .text(function(d) { return d.name })
+    // .attr("font-family", "sans-serif")
+    // .attr("font-size", "8px")
+    // .attr("font-weight", "bold")
+    // .attr("fill", "red");
+        
+    

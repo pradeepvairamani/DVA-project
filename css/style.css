@@ -12,6 +12,12 @@ line.link {
     stroke-width: 1.5px;
 }
 
+text.node {
+  fill: #000;
+  font: 10px sans-serif;
+  pointer-events: none;
+}
+
 body {
   background: #F1F3FA;
 }
