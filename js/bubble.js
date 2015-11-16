@@ -41,11 +41,11 @@ for (i = 0; i < 10; i++) {
     words[0].children.push(getnodeobj(group));
 }
 
-words[0].children[words[0].children.length-1].children = [];
-var group = getgroup_ni(true);
-for (i = 0; i < 3; i++) { 
-    words[0].children[words[0].children.length -1].children.push(getnodeobj(group));
-}
+// words[0].children[words[0].children.length-1].children = [];
+// var group = getgroup_ni(true);
+// for (i = 0; i < 3; i++) { 
+//     words[0].children[words[0].children.length -1].children.push(getnodeobj(group));
+// }
 
 var tip = d3.tip()
   .attr('class', 'd3-tip')
@@ -219,15 +219,20 @@ function flatten(root) {
 
 var colorarr = d3.scale.category10();
 // Color leaf nodes orange, and packages white or blue.
+
 function color(d) {
     //return color(d.group % 10)-1);
-    group = d.group % 5 + 1;
+    group = d.group % 9 + 1;
     switch(group) {
         case 1: return "#e74c3c"; break;
         case 2: return "#3498db"; break;
         case 3: return "#2ecc71"; break;
         case 4: return "#e78229"; break;
         case 5: return "#9b59b6"; break;
+        case 6: return "#b10026"; break;
+        case 7: return "#1f77b4"; break;
+        case 8: return "#ff7f0e"; break;
+        case 9: return "#2ca02c"; break;
     }
 }
 
