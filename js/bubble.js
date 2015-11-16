@@ -60,7 +60,7 @@ var tip = d3.tip()
 var force = d3.layout.force()
     .on("tick", tick)
     .charge(function(d) { return d.group == curr_grpid ? -1500 : -700; })
-    .linkDistance(function(d) { return d.group == curr_grpid ? 1000/small_radius : 500/small_radius; })
+    .linkDistance(function(d) { return (d.source.group == curr_grpid) ||(d.source.id == global_id) ? 2000/small_radius : 250/small_radius; })
     .size([w, h - 160]);
 
 var svg = d3.select("body").append("svg")
