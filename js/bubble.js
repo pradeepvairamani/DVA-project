@@ -1,5 +1,6 @@
-window.onload = function() {
+function handlesearch(searched_name){
 
+window.onload = function() {
 
 d3.json("../data/authors.json", function(error, json) {  
 
@@ -49,7 +50,22 @@ function getnodeobj(group,name){
     return obj;
 }
 
-words = [ getnodeobj(getgroup_ni(true,"main node")), ];
+//var input = document.getElementById("se_au_na");
+//searched_name = input.options[input.selectedIndex].value;;
+
+var srd_index = -1;
+for (i = 0; i < authors.length; i++) { 
+    if (authors[i].name == searched_name){ srd_index = i; break;   }
+}
+
+var words;
+if (srd_index != -1){   
+    authors.splice(srd_index,1);
+    words = [ getnodeobj(getgroup_ni(true),searched_name), ];
+}
+else{
+    words = [ getnodeobj(getgroup_ni(true)), ];   
+}
 
 words[0].children = [];
 var group = words[0].group;
@@ -176,7 +192,7 @@ function tick() {
             if(d.id == global_id){
                 $(".profile-usertitle-name").text(d.name);
                 $(".profile-usertitle-job").text(d.aff);
-                console.log(d);
+                //console.log(d);
                 return 5;
             }
             return 1;            
@@ -270,4 +286,4 @@ function color(d) {
     // .attr("font-weight", "bold")
     // .attr("fill", "red");
         
-    
+}

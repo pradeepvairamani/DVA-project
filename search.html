@@ -39,8 +39,8 @@
     function handle(e){
         setTimeout(function () {
             window.location.href = "../index.html?name="+$("#gettext").val();
+            return false; //Otherwise the form will be submitted
         }, 100);
-        return false; //Otherwise the form will be submitted
     };
     </script>
 </html>
