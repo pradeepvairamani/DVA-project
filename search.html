@@ -2,10 +2,11 @@
 <html>
     <head>
         <link rel="stylesheet" href="css/search.css" type="text/css">
+        <script src="lib/d3/jquery-1.11.3.min.js"></script>
     </head>
 
     <form class="searchbox" action="#" onsubmit="handle()">
-        <input type="search" placeholder="search.." />
+        <input type="search" id="gettext" placeholder="search.." />
         <ul class="suggestions">
             <li><a href="#">Laura Laato</a></li>
             <li><a href="#">Jose Alfredo Arreolalizarraga</a></li>
@@ -16,7 +17,9 @@
 
     <script>
     function handle(e){
-        
+        setTimeout(function () {
+            window.location.href = "../index.html?name="+$("#gettext").val();
+        }, 100);
         return false; //Otherwise the form will be submitted
     }
     </script>
