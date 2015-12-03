@@ -1,17 +1,5 @@
 window.onload = function() {
 
-
-d3.json("../data/authors.json", function(error, json) {  
-
-var authors= json.authors; 
-
-function* get_author(){
-    var index = 0;
-    while(true)
-        yield authors[index++];
-}
-var auth_gen = get_author();
-
 function getgroup_ni(if_inc){
     if( typeof getgroup_ni.counter == 'undefined' ) {   getgroup_ni.counter = 1;    }
     var temp = getgroup_ni.counter;
@@ -40,11 +28,7 @@ function getnodeobj(group,name){
     obj.y=h/2;
     obj.fixed = false;
     obj.id=getid();
-    var auth = auth_gen.next().value;
-    console.log(auth);
-    console.log(auth);
-    obj.aff = auth.aff;
-    if( typeof name == 'undefined' ) {  obj.name = auth.name;/*"sub node " + obj.id;  */  }
+    if( typeof name == 'undefined' ) {  obj.name = "sub node " + obj.id;    }
     else{ obj.name = name; }
     return obj;
 }
@@ -57,21 +41,20 @@ for (i = 0; i < 10; i++) {
     words[0].children.push(getnodeobj(group));
 }
 
-// words[0].children[words[0].children.length-1].children = [];
-// var group = getgroup_ni(true);
-// for (i = 0; i < 3; i++) { 
-//     words[0].children[words[0].children.length -1].children.push(getnodeobj(group));
-// }
+words[0].children[words[0].children.length-1].children = [];
+var group = getgroup_ni(true);
+for (i = 0; i < 3; i++) { 
+    words[0].children[words[0].children.length -1].children.push(getnodeobj(group));
+}
 
 var tip = d3.tip()
   .attr('class', 'd3-tip')
   .offset([-10, 0])
   .html(function(d) {
-    return "<strong>Name:</strong> <span style='color:red'>" + d.name + "</span><br><br>\
-            <strong>Affiliation:</strong> <span style='color:red'>" + d.aff + "</span><br><br>\
-            <strong>Major FOS:</strong> <span style='color:red'>" + 'Applied Science' + "</span><br><br>\
-            <strong>ExploreCount:</strong> <span style='color:red'>" + d.group + "</span>";
-            //<strong>Color:</strong> <span style='color:red'>" + color(d) + "</span>
+    return "<strong>Name:</strong> <span style='color:red'>" + d.name + "</span><br>\
+            <strong>Id:</strong> <span style='color:red'>" + d.id + "</span><br>\
+            <strong>Group:</strong> <span style='color:red'>" + d.group + "</span><br>\
+            <strong>Color:</strong> <span style='color:red'>" + color(d) + "</span>";
   })
 
 var force = d3.layout.force()
@@ -247,7 +230,7 @@ function color(d) {
         case 5: return "#9b59b6"; break;
     }
 }
-});
+
 };
 
 // node.enter().append("svg:text")

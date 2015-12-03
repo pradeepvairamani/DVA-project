@@ -1,0 +1,4284 @@
+{
+         "authors": [
+                  {
+                           "aff": "Department Of Biochemistry University Of Oxford", 
+                           "name": "Laura Laato"
+                  }, 
+                  {
+                           "aff": "The Great Atlantic Pacific Tea Company", 
+                           "name": "Jose Alfredo Arreolalizarraga"
+                  }, 
+                  {
+                           "aff": "Sandia National Laboratories", 
+                           "name": "H Q Hou"
+                  }, 
+                  {
+                           "aff": "University Of Mississippi Medical Center", 
+                           "name": "Rashmi A Kusurkar"
+                  }, 
+                  {
+                           "aff": "American Association Of Poison Control Centers", 
+                           "name": "J F Philippe"
+                  }, 
+                  {
+                           "aff": "Department Of Biochemistry University Of Oxford", 
+                           "name": "Maneewan Suksomtip"
+                  }, 
+                  {
+                           "aff": "Optigrate", 
+                           "name": "V A Smirnov"
+                  }, 
+                  {
+                           "aff": "Department Of Biochemistry University Of Oxford", 
+                           "name": "Abdulkerim Bedir"
+                  }, 
+                  {
+                           "aff": "British American Tobacco", 
+                           "name": "Evan O Gregg"
+                  }, 
+                  {
+                           "aff": "University Of Washington", 
+                           "name": "Robert B Srygley"
+                  }, 
+                  {
+                           "aff": "University Of Massachusetts Boston", 
+                           "name": "Jeffrey E Rhodes"
+                  }, 
+                  {
+                           "aff": "Harbin Institute Of Technology", 
+                           "name": "Ranran Liu"
+                  }, 
+                  {
+                           "aff": "Department Of Biochemistry University Of Oxford", 
+                           "name": "J Vandekerckhove"
+                  }, 
+                  {
+                           "aff": "Sandia National Laboratories", 
+                           "name": "James E Levy"
+                  }, 
+                  {
+                           "aff": "Wave Broadband", 
+                           "name": "A V Popov"
+                  }, 
+                  {
+                           "aff": "University Of Washington", 
+                           "name": "Prasang Upadhyaya"
+                  }, 
+                  {
+                           "aff": "University Of Malaya", 
+                           "name": "Yat Huang Yau"
+                  }, 
+                  {
+                           "aff": "Usthb", 
+                           "name": "Radia Haroun"
+                  }, 
+                  {
+                           "aff": "University Of Ontario Institute Of Technology", 
+                           "name": "A Thommandram"
+                  }, 
+                  {
+                           "aff": "University Of California Santa Cruz", 
+                           "name": "Richard E Green"
+                  }, 
+                  {
+                           "aff": "Eotvos Lorand University", 
+                           "name": "Gyorgy Schuster"
+                  }, 
+                  {
+                           "aff": "Wave Broadband", 
+                           "name": "Wei Jian"
+                  }, 
+                  {
+                           "aff": "Harbin Institute Of Technology", 
+                           "name": "Dongguang Xu"
+                  }, 
+                  {
+                           "aff": "Dental School", 
+                           "name": "R Ambalavanar"
+                  }, 
+                  {
+                           "aff": "Santiago", 
+                           "name": "Horacio B Croxatto"
+                  }, 
+                  {
+                           "aff": "University Of California Santa Cruz", 
+                           "name": "E Suhir"
+                  }, 
+                  {
+                           "aff": "China University Of Geosciences", 
+                           "name": "Chen Liu"
+                  }, 
+                  {
+                           "aff": "Harbin Institute Of Technology", 
+                           "name": "Bin Hu"
+                  }, 
+                  {
+                           "aff": "Yokohama National University", 
+                           "name": "Yutaka Noguchi"
+                  }, 
+                  {
+                           "aff": "Uddevalla Hospital", 
+                           "name": "Marcus Osterbrand"
+                  }, 
+                  {
+                           "aff": "Department Of Biochemistry University Of Oxford", 
+                           "name": "Veerle De Corte"
+                  }, 
+                  {
+                           "aff": "Lulea University Of Technology", 
+                           "name": "Kerstin Ohrling"
+                  }, 
+                  {
+                           "aff": "Queensland Brain Institute Brisbane Australia", 
+                           "name": "Elliot Lambert"
+                  }, 
+                  {
+                           "aff": "University Of Zaragoza", 
+                           "name": "I Marqueslopes"
+                  }, 
+                  {
+                           "aff": "Real", 
+                           "name": "L Baringo"
+                  }, 
+                  {
+                           "aff": "Multimedia University", 
+                           "name": "R Palaniappan"
+                  }, 
+                  {
+                           "aff": "University Of Washington", 
+                           "name": "P Sullivan"
+                  }, 
+                  {
+                           "aff": "University Of Engineering And Technology Lahore", 
+                           "name": "Thanh Van Thi Nguyen"
+                  }, 
+                  {
+                           "aff": "Harbin Institute Of Technology", 
+                           "name": "Chengde Tong"
+                  }, 
+                  {
+                           "aff": "University Of Washington", 
+                           "name": "Merritt E A Sarfaty S Jobling M G Chang T Holmes R K Hirst T R Hol W G"
+                  }, 
+                  {
+                           "aff": "Institute Montefiore Liege University Belgium", 
+                           "name": "Andre Danthine"
+                  }, 
+                  {
+                           "aff": "Joseph Fourier University", 
+                           "name": "Maurine Montagnat"
+                  }, 
+                  {
+                           "aff": "University Of Washington", 
+                           "name": "Roger J Phillips"
+                  }, 
+                  {
+                           "aff": "Harbin Institute Of Technology", 
+                           "name": "Mantian Li"
+                  }, 
+                  {
+                           "aff": "China University Of Geosciences", 
+                           "name": "Nengxiong Xu"
+                  }, 
+                  {
+                           "aff": "National Institute Of Malaria Research", 
+                           "name": "Aparup Das"
+                  }, 
+                  {
+                           "aff": "Department Of Biochemistry University Of Oxford", 
+                           "name": "Marketa Zvelebil"
+                  }, 
+                  {
+                           "aff": "Department Of Biochemistry University Of Oxford", 
+                           "name": "Birsen Bilgici"
+                  }, 
+                  {
+                           "aff": "Kindai University", 
+                           "name": "Tatsuya Kai"
+                  }, 
+                  {
+                           "aff": "National Institute On Aging", 
+                           "name": "Alex Keselman"
+                  }, 
+                  {
+                           "aff": "Yokohama National University", 
+                           "name": "Y Umehara"
+                  }, 
+                  {
+                           "aff": "China University Of Geosciences", 
+                           "name": "Tao Yu"
+                  }, 
+                  {
+                           "aff": "National Institute For Medical Research", 
+                           "name": "Massoud Mirshahi"
+                  }, 
+                  {
+                           "aff": "Sezione Infn Di Roma Roma Italy", 
+                           "name": "P Neustroev"
+                  }, 
+                  {
+                           "aff": "University Of Washington", 
+                           "name": "Michael Morrison"
+                  }, 
+                  {
+                           "aff": "Biomed Central", 
+                           "name": "M Bijak"
+                  }, 
+                  {
+                           "aff": "Mit Lincoln Laboratory", 
+                           "name": "M E Brown"
+                  }, 
+                  {
+                           "aff": "Xia Llc Hayward Ca Usa", 
+                           "name": "Hui Tan"
+                  }, 
+                  {
+                           "aff": "Santiago", 
+                           "name": "Antonio Rial"
+                  }, 
+                  {
+                           "aff": "University Of Washington", 
+                           "name": "Igor V Novosselov"
+                  }, 
+                  {
+                           "aff": "Eotvos Lorand University", 
+                           "name": "Margit Kovacs"
+                  }, 
+                  {
+                           "aff": "Joseph Fourier University", 
+                           "name": "Pierre Benech"
+                  }, 
+                  {
+                           "aff": "National Institute For Medical Research", 
+                           "name": "Nadia Benabbou"
+                  }, 
+                  {
+                           "aff": "Hopital Femme Mere Enfant", 
+                           "name": "Nathalie Guffon"
+                  }, 
+                  {
+                           "aff": "Medical University Of Vienna", 
+                           "name": "Robert M Mader"
+                  }, 
+                  {
+                           "aff": "Sandia National Laboratories", 
+                           "name": "M E Cuneo"
+                  }, 
+                  {
+                           "aff": "Sandia National Laboratories", 
+                           "name": "D B Mcgarrah"
+                  }, 
+                  {
+                           "aff": "Samsung Electronics", 
+                           "name": "Sangpok Ko"
+                  }, 
+                  {
+                           "aff": "University Of Washington", 
+                           "name": "Xu Xu"
+                  }, 
+                  {
+                           "aff": "Sharif University Of Technology", 
+                           "name": "M Fotuhifiruzabad"
+                  }, 
+                  {
+                           "aff": "Harbin Institute Of Technology", 
+                           "name": "Yufeng Yao"
+                  }, 
+                  {
+                           "aff": "Central Research Institute Of Electric Power Industry", 
+                           "name": "Shinichi Hirano"
+                  }, 
+                  {
+                           "aff": "Harbin Institute Of Technology", 
+                           "name": "Dewei Sun"
+                  }, 
+                  {
+                           "aff": "University Of Gdansk", 
+                           "name": "Emilia Sikorska"
+                  }, 
+                  {
+                           "aff": "University Of Malaya", 
+                           "name": "Mohd Rafie Johan"
+                  }, 
+                  {
+                           "aff": "China University Of Geosciences", 
+                           "name": "Zhongfang Yang"
+                  }, 
+                  {
+                           "aff": "University Of Washington", 
+                           "name": "Akira Ishimaru"
+                  }, 
+                  {
+                           "aff": "University Of Washington", 
+                           "name": "Jianjun Guo"
+                  }, 
+                  {
+                           "aff": "Sandia National Laboratories", 
+                           "name": "Thomas J Kulp"
+                  }, 
+                  {
+                           "aff": "Joseph Fourier University", 
+                           "name": "Marc Boulon"
+                  }, 
+                  {
+                           "aff": "Air Force Research Laboratories", 
+                           "name": "Uttam Majumder"
+                  }, 
+                  {
+                           "aff": "Istituto Di Fisica Dell Universita Bari", 
+                           "name": "V Picciarelli"
+                  }, 
+                  {
+                           "aff": "Harbin Institute Of Technology", 
+                           "name": "Lu Ting"
+                  }, 
+                  {
+                           "aff": "Universidade Estadual De Londrina", 
+                           "name": "Sandra Regina Ferreira De Oliveira"
+                  }, 
+                  {
+                           "aff": "Boundless", 
+                           "name": "P C Lyman"
+                  }, 
+                  {
+                           "aff": "Mechanized Infantry", 
+                           "name": "Jinrui Sang"
+                  }, 
+                  {
+                           "aff": "National Institute Of Malaria Research", 
+                           "name": "Suchita Singh"
+                  }, 
+                  {
+                           "aff": "University Of Bern", 
+                           "name": "Martin Frenz"
+                  }, 
+                  {
+                           "aff": "Biomed Central", 
+                           "name": "Kungbin Sung"
+                  }, 
+                  {
+                           "aff": "Sharif University Of Technology", 
+                           "name": "Mostafa Sadeghi"
+                  }, 
+                  {
+                           "aff": "Department Of Biochemistry University Of Oxford", 
+                           "name": "Hilaire Macaire Womeni"
+                  }, 
+                  {
+                           "aff": "University Of Kansas School Of Medicine", 
+                           "name": "Byron J Gajewski"
+                  }, 
+                  {
+                           "aff": "University Of Bern", 
+                           "name": "Hans J Altermatt"
+                  }, 
+                  {
+                           "aff": "University Of California Santa Cruz", 
+                           "name": "John St John"
+                  }, 
+                  {
+                           "aff": "University Of Washington", 
+                           "name": "Phillip C Malte"
+                  }, 
+                  {
+                           "aff": "University Of Zaragoza", 
+                           "name": "Manuel Glezbedia"
+                  }, 
+                  {
+                           "aff": "Universiti Teknologi Mara", 
+                           "name": "Norazah Abdul Rahman"
+                  }, 
+                  {
+                           "aff": "Real", 
+                           "name": "J A Morenocid"
+                  }, 
+                  {
+                           "aff": "University Of Washington", 
+                           "name": "Jennifer Ortiz"
+                  }, 
+                  {
+                           "aff": "Universidade Federal Do Abc", 
+                           "name": "Cassiana S Nomura"
+                  }, 
+                  {
+                           "aff": "Universiti Teknologi Mara", 
+                           "name": "Shuria Saaidin"
+                  }, 
+                  {
+                           "aff": "University Of Washington", 
+                           "name": "Ivan Bulyko"
+                  }, 
+                  {
+                           "aff": "Moscow Institute Of Physics And Technology", 
+                           "name": "I L Beigman"
+                  }, 
+                  {
+                           "aff": "Dipt Di Elettronica E Telecomunicazioni Firenze University Italy", 
+                           "name": "T Pecorella"
+                  }, 
+                  {
+                           "aff": "National Institute On Aging", 
+                           "name": "Mark P Mattson"
+                  }, 
+                  {
+                           "aff": "Harbin Institute Of Technology", 
+                           "name": "Xi Li"
+                  }, 
+                  {
+                           "aff": "Yokohama National University", 
+                           "name": "Taiki Ishiwata"
+                  }, 
+                  {
+                           "aff": "Universidade Estadual De Londrina", 
+                           "name": "Ligia Carla Faccin"
+                  }, 
+                  {
+                           "aff": "Department Of Biochemistry University Of Oxford", 
+                           "name": "Muhlise Alvur"
+                  }, 
+                  {
+                           "aff": "University Of Washington", 
+                           "name": "Jeff Bilmes"
+                  }, 
+                  {
+                           "aff": "Semiconductor Systems Des Technology Group Motorola Incorporated Tempe Az Usa", 
+                           "name": "Gary Yeap"
+                  }, 
+                  {
+                           "aff": "National Institute On Aging", 
+                           "name": "William Wood"
+                  }, 
+                  {
+                           "aff": "University Of Washington", 
+                           "name": "Magdalena Balazinska"
+                  }, 
+                  {
+                           "aff": "Universidade Estadual De Londrina", 
+                           "name": "Leticia Maria De Castro"
+                  }, 
+                  {
+                           "aff": "Joseph Fourier University", 
+                           "name": "S Huant"
+                  }, 
+                  {
+                           "aff": "Harbin Institute Of Technology", 
+                           "name": "Wei Cai"
+                  }, 
+                  {
+                           "aff": "Eotvos Lorand University", 
+                           "name": "Judith Kormos"
+                  }, 
+                  {
+                           "aff": "Harbin Institute Of Technology", 
+                           "name": "Li Fangfang"
+                  }, 
+                  {
+                           "aff": "Patagonia", 
+                           "name": "M Laura Miserendino"
+                  }, 
+                  {
+                           "aff": "Bulgarian Academy Of Sciences", 
+                           "name": "Rayna Georgieva"
+                  }, 
+                  {
+                           "aff": "University Of Washington", 
+                           "name": "Elaine A Thompson"
+                  }, 
+                  {
+                           "aff": "Harbin Institute Of Technology", 
+                           "name": "Guangren Duan"
+                  }, 
+                  {
+                           "aff": "University Of Engineering And Technology Lahore", 
+                           "name": "Manh Duong Phung"
+                  }, 
+                  {
+                           "aff": "University Of Washington", 
+                           "name": "F Governato"
+                  }, 
+                  {
+                           "aff": "Department Of Pharmaceutics University Of Kuopio P O Box 1627 Fin 70211 Kuopio Finland", 
+                           "name": "Sami Poutiainen"
+                  }, 
+                  {
+                           "aff": "National Optical Astronomy Observatories Tucson Az 85726 6732 Usa", 
+                           "name": "A Saha"
+                  }, 
+                  {
+                           "aff": "Purple Mountain Observatory Beijing West Road No 2 Nanjing 210008 Chinaningzongjun Pmo Ac Cn", 
+                           "name": "Zongjun Ning"
+                  }, 
+                  {
+                           "aff": "Bulgarian Academy Of Sciences", 
+                           "name": "Evgeny V Golovinsky"
+                  }, 
+                  {
+                           "aff": "Dental School", 
+                           "name": "Guang Bai"
+                  }, 
+                  {
+                           "aff": "University Of Washington", 
+                           "name": "Mingting Sun"
+                  }, 
+                  {
+                           "aff": "Santiago", 
+                           "name": "A Smette"
+                  }, 
+                  {
+                           "aff": "British American Tobacco", 
+                           "name": "Alfredo Nunziata"
+                  }, 
+                  {
+                           "aff": "University Of Washington", 
+                           "name": "Jashvant D Unadkat"
+                  }, 
+                  {
+                           "aff": "Mit Lincoln Laboratory", 
+                           "name": "D A Reynolds"
+                  }, 
+                  {
+                           "aff": "Sharif University Of Technology", 
+                           "name": "Mohsen Jamaali"
+                  }, 
+                  {
+                           "aff": "Harbin Institute Of Technology", 
+                           "name": "Wang Dafang"
+                  }, 
+                  {
+                           "aff": "Linkoepings University Sweden", 
+                           "name": "Marcus Larsson"
+                  }, 
+                  {
+                           "aff": "Eotvos Lorand University", 
+                           "name": "Robert Fuller"
+                  }, 
+                  {
+                           "aff": "University Of California Santa Cruz", 
+                           "name": "H F W Sadrozinski"
+                  }, 
+                  {
+                           "aff": "Department Of Engineering Science University Of Oxford", 
+                           "name": "Gary Paradee"
+                  }, 
+                  {
+                           "aff": "Mississippi College", 
+                           "name": "Sake J De Vlas"
+                  }, 
+                  {
+                           "aff": "Harbin Institute Of Technology", 
+                           "name": "Keding Zhao"
+                  }, 
+                  {
+                           "aff": "Sandia National Laboratories", 
+                           "name": "Gerard E Sleefe"
+                  }, 
+                  {
+                           "aff": "Sharif University Of Technology", 
+                           "name": "Massoud Babaiezadeh"
+                  }, 
+                  {
+                           "aff": "Yokohama National University", 
+                           "name": "Hiroyuki Arai"
+                  }, 
+                  {
+                           "aff": "Harbin Institute Of Technology", 
+                           "name": "Ying Ma"
+                  }, 
+                  {
+                           "aff": "Universidade Estadual De Londrina", 
+                           "name": "Ivone Yurika Mizubuti"
+                  }, 
+                  {
+                           "aff": "Wave Broadband", 
+                           "name": "I V Krasheninnikov"
+                  }, 
+                  {
+                           "aff": "Department Of Engineering Science University Of Oxford", 
+                           "name": "Chiawei Lai"
+                  }, 
+                  {
+                           "aff": "Central Research Institute Of Electric Power Industry", 
+                           "name": "Kengo Sasaki"
+                  }, 
+                  {
+                           "aff": "L Abri", 
+                           "name": "Mathieu Faverge"
+                  }, 
+                  {
+                           "aff": "Santos", 
+                           "name": "Joanemile P Figueiredo"
+                  }, 
+                  {
+                           "aff": "Harbin Institute Of Technology", 
+                           "name": "Zhu Yueying"
+                  }, 
+                  {
+                           "aff": "Lahore University Of Management Sciences", 
+                           "name": "Md Selim Habib"
+                  }, 
+                  {
+                           "aff": "Central Research Institute Of Electric Power Industry", 
+                           "name": "Norio Matsumoto"
+                  }, 
+                  {
+                           "aff": "Sharif University Of Technology", 
+                           "name": "Shahrokh Ghaemmaghami"
+                  }, 
+                  {
+                           "aff": "Sandia National Laboratories", 
+                           "name": "Michael Montoya"
+                  }, 
+                  {
+                           "aff": "University Dortmund", 
+                           "name": "Klaus Kneupner"
+                  }, 
+                  {
+                           "aff": "Institute Of Chemical Physics Of The Academy Of Sciences Of The Ussr Ussr", 
+                           "name": "S A Levina"
+                  }, 
+                  {
+                           "aff": "China University Of Geosciences", 
+                           "name": "Long Chen"
+                  }, 
+                  {
+                           "aff": "University Of Washington", 
+                           "name": "P S Mushlin"
+                  }, 
+                  {
+                           "aff": "United States Army Research Laboratory", 
+                           "name": "Ed Habtour"
+                  }, 
+                  {
+                           "aff": "University Of Washington", 
+                           "name": "Susan Eggers"
+                  }, 
+                  {
+                           "aff": "Sharif University Of Technology", 
+                           "name": "Amin Khodaei"
+                  }, 
+                  {
+                           "aff": "University Of Science And Technology Beijing", 
+                           "name": "Qunxia Li"
+                  }, 
+                  {
+                           "aff": "Sandia National Laboratories", 
+                           "name": "Armando Fresquez"
+                  }, 
+                  {
+                           "aff": "Department Of Biochemistry University Of Oxford", 
+                           "name": "Felix E Riveramolina"
+                  }, 
+                  {
+                           "aff": "Multimedia University", 
+                           "name": "R Md Nasir"
+                  }, 
+                  {
+                           "aff": "United States Army Research Laboratory", 
+                           "name": "Alex Lipchen Chan"
+                  }, 
+                  {
+                           "aff": "Sezione Infn Di Roma Roma Italy", 
+                           "name": "R Berutti"
+                  }, 
+                  {
+                           "aff": "University Of California Santa Cruz", 
+                           "name": "Jeremy Hieb"
+                  }, 
+                  {
+                           "aff": "School Of Chemical And Materials Engineering Huangshi Institute Of Technology Huangshi 435003 Pr China", 
+                           "name": "Wei Li"
+                  }, 
+                  {
+                           "aff": "Augenklinik Universitatskliniken Des Saarlands Homburg Saar Xx", 
+                           "name": "K W Ruprecht"
+                  }, 
+                  {
+                           "aff": "Sandia National Laboratories", 
+                           "name": "P J Brannon"
+                  }, 
+                  {
+                           "aff": "South China Normal University", 
+                           "name": "Huajiang Wei"
+                  }, 
+                  {
+                           "aff": "Sharif University Of Technology", 
+                           "name": "F Aminifar"
+                  }, 
+                  {
+                           "aff": "University Of Washington", 
+                           "name": "Susan R Heckbert"
+                  }, 
+                  {
+                           "aff": "University Of California Santa Cruz", 
+                           "name": "Peyman Milanfar"
+                  }, 
+                  {
+                           "aff": "Harbin Institute Of Technology", 
+                           "name": "Yanlang Dong"
+                  }, 
+                  {
+                           "aff": "Harbin Institute Of Technology", 
+                           "name": "Weisheng Bi"
+                  }, 
+                  {
+                           "aff": "Istituto Nazionale Di Geofisica E Vulcanologia", 
+                           "name": "Stefano Urbini"
+                  }, 
+                  {
+                           "aff": "University Of Washington", 
+                           "name": "Jie Guo"
+                  }, 
+                  {
+                           "aff": "Biomed Central", 
+                           "name": "F Mastik"
+                  }, 
+                  {
+                           "aff": "University Of Bern", 
+                           "name": "Christophe Irniger"
+                  }, 
+                  {
+                           "aff": "Institute Of Electrophys Academy Of Science Ekaterinburg Russia", 
+                           "name": "S A Barengolts"
+                  }, 
+                  {
+                           "aff": "North China Electr Power University Beijing", 
+                           "name": "Hua Zheng"
+                  }, 
+                  {
+                           "aff": "Office Of Robotics And Autonomous Systems United States", 
+                           "name": "Hobart R Everett"
+                  }, 
+                  {
+                           "aff": "Harbin Institute Of Technology", 
+                           "name": "C T Wu"
+                  }, 
+                  {
+                           "aff": "University Of California Santa Cruz", 
+                           "name": "J S Kalirai"
+                  }, 
+                  {
+                           "aff": "Yokohama National University", 
+                           "name": "M Tanaka"
+                  }, 
+                  {
+                           "aff": "Joseph Fourier University", 
+                           "name": "P Monceau"
+                  }, 
+                  {
+                           "aff": "Boston College", 
+                           "name": "Gregory G Fahlman"
+                  }, 
+                  {
+                           "aff": "National Institute On Aging", 
+                           "name": "Tamara B Harris"
+                  }, 
+                  {
+                           "aff": "Lulea University Of Technology", 
+                           "name": "Erik Olsson"
+                  }, 
+                  {
+                           "aff": "Dipt Di Elettronica E Telecomunicazioni Firenze University Italy", 
+                           "name": "G Vannuccini"
+                  }, 
+                  {
+                           "aff": "School Of Medicine And Medical Science", 
+                           "name": "Catherine Byrne"
+                  }, 
+                  {
+                           "aff": "National Institute For Medical Research", 
+                           "name": "Jeannette Soria"
+                  }, 
+                  {
+                           "aff": "Wave Broadband", 
+                           "name": "J B Snider"
+                  }, 
+                  {
+                           "aff": "Mit Lincoln Laboratory", 
+                           "name": "D Sturim"
+                  }, 
+                  {
+                           "aff": "Universiti Teknologi Mara", 
+                           "name": "Noor Habibah Arshad"
+                  }, 
+                  {
+                           "aff": "University Of Washington", 
+                           "name": "M B Blake"
+                  }, 
+                  {
+                           "aff": "Department Of Biochemistry University Of Oxford", 
+                           "name": "L Bernier"
+                  }, 
+                  {
+                           "aff": "Santiago", 
+                           "name": "Maria A Santillan"
+                  }, 
+                  {
+                           "aff": "Lulea University Of Technology", 
+                           "name": "Annika Sallstrom"
+                  }, 
+                  {
+                           "aff": "Boston College", 
+                           "name": "D A Edmonds"
+                  }, 
+                  {
+                           "aff": "Harbin Institute Of Technology", 
+                           "name": "Qun Wu"
+                  }, 
+                  {
+                           "aff": "Harbin Institute Of Technology", 
+                           "name": "Guijun Xian"
+                  }, 
+                  {
+                           "aff": "Harbin Institute Of Technology", 
+                           "name": "Zhijiang Wang"
+                  }, 
+                  {
+                           "aff": "University Of Science And Technology Beijing", 
+                           "name": "Shiping Zhang"
+                  }, 
+                  {
+                           "aff": "University Of Bern", 
+                           "name": "Hans U Gudel"
+                  }, 
+                  {
+                           "aff": "University Of Washington", 
+                           "name": "Pablo Montoya"
+                  }, 
+                  {
+                           "aff": "Santos", 
+                           "name": "Maria Cecilia Almeida"
+                  }, 
+                  {
+                           "aff": "University Of Washington", 
+                           "name": "Christina M Mastrangelo"
+                  }, 
+                  {
+                           "aff": "Harbin Institute Of Technology", 
+                           "name": "Dongmei Yang"
+                  }, 
+                  {
+                           "aff": "Mit Lincoln Laboratory", 
+                           "name": "T Q Nguyen"
+                  }, 
+                  {
+                           "aff": "University Of Science And Technology Beijing", 
+                           "name": "Fuxing Jiang"
+                  }, 
+                  {
+                           "aff": "Sandia National Laboratories", 
+                           "name": "B Jones"
+                  }, 
+                  {
+                           "aff": "Sandia National Laboratories", 
+                           "name": "M J Hafich"
+                  }, 
+                  {
+                           "aff": "Institute Of High Energy Physics", 
+                           "name": "D L Chen"
+                  }, 
+                  {
+                           "aff": "Dental School", 
+                           "name": "Dong Wei"
+                  }, 
+                  {
+                           "aff": "Sandia National Laboratories", 
+                           "name": "J R Schwank"
+                  }, 
+                  {
+                           "aff": "China University Of Geosciences", 
+                           "name": "Hong Tian"
+                  }, 
+                  {
+                           "aff": "Department Of Engineering Science University Of Oxford", 
+                           "name": "D P Pulsifer"
+                  }, 
+                  {
+                           "aff": "University Of Washington", 
+                           "name": "Bruce Balick"
+                  }, 
+                  {
+                           "aff": "Moscow Institute Of Physics And Technology", 
+                           "name": "E A Vishnyakov"
+                  }, 
+                  {
+                           "aff": "Concordia University", 
+                           "name": "M Al Janaideh"
+                  }, 
+                  {
+                           "aff": "Universiti Teknologi Mara", 
+                           "name": "M Z Salleh"
+                  }, 
+                  {
+                           "aff": "Lulea University Of Technology", 
+                           "name": "Torbjorn Lofqvist"
+                  }, 
+                  {
+                           "aff": "Harbin Institute Of Technology", 
+                           "name": "Debin Zhao"
+                  }, 
+                  {
+                           "aff": "Harbin Institute Of Technology", 
+                           "name": "Longjiang Guo"
+                  }, 
+                  {
+                           "aff": "Department Of Biochemistry University Of Oxford", 
+                           "name": "Thierry Joel Nangue"
+                  }, 
+                  {
+                           "aff": "Naval Command Control And Ocean Surveillance Ctr Usa", 
+                           "name": "Douglas W Gage"
+                  }, 
+                  {
+                           "aff": "Department Geol And Geophys Bari University", 
+                           "name": "E Ricchetti"
+                  }, 
+                  {
+                           "aff": "Boston College", 
+                           "name": "Julie Paquette Macevoy"
+                  }, 
+                  {
+                           "aff": "University Of Washington", 
+                           "name": "Alex Rolfe"
+                  }, 
+                  {
+                           "aff": "Sandia National Laboratories", 
+                           "name": "Cecil E Land"
+                  }, 
+                  {
+                           "aff": "Harbin Institute Of Technology", 
+                           "name": "Jian Wu"
+                  }, 
+                  {
+                           "aff": "University Of Dallas", 
+                           "name": "Iling Yen"
+                  }, 
+                  {
+                           "aff": "University Of Washington", 
+                           "name": "Yasuo Kuga"
+                  }, 
+                  {
+                           "aff": "Philips Lighting Netherlands", 
+                           "name": "Teus W Tukker"
+                  }, 
+                  {
+                           "aff": "Department Of Biochemistry University Of Oxford", 
+                           "name": "Takashi Sato"
+                  }, 
+                  {
+                           "aff": "University Of Washington", 
+                           "name": "J Davies"
+                  }, 
+                  {
+                           "aff": "Universidade Paranaense", 
+                           "name": "Debora De Mello Goncales Santana"
+                  }, 
+                  {
+                           "aff": "University Of California Santa Cruz", 
+                           "name": "Ronald G Eastman"
+                  }, 
+                  {
+                           "aff": "Department Of Biochemistry University Of Oxford", 
+                           "name": "Sjef Verbeek"
+                  }, 
+                  {
+                           "aff": "Iraqi Special Operations Forces", 
+                           "name": "Massimo Gazzano"
+                  }, 
+                  {
+                           "aff": "Sharif University Of Technology", 
+                           "name": "M M Nayebi"
+                  }, 
+                  {
+                           "aff": "University Of Engineering And Technology Lahore", 
+                           "name": "Niamat Ullah Ibne Hossain"
+                  }, 
+                  {
+                           "aff": "University Of Gdansk", 
+                           "name": "Michal Sadownik"
+                  }, 
+                  {
+                           "aff": "Harbin Institute Of Technology", 
+                           "name": "Cao Chuqing"
+                  }, 
+                  {
+                           "aff": "University Of Gdansk", 
+                           "name": "Anna Hermanantosiewicz"
+                  }, 
+                  {
+                           "aff": "Sandia National Laboratories", 
+                           "name": "R W Lemke"
+                  }, 
+                  {
+                           "aff": "Istituto Di Fisica Dell Universita Bari", 
+                           "name": "P Waloschek"
+                  }, 
+                  {
+                           "aff": "University Of Washington", 
+                           "name": "Mary L Disis"
+                  }, 
+                  {
+                           "aff": "A C Equip Services Milwaukee Wi Usa", 
+                           "name": "R W Hankes"
+                  }, 
+                  {
+                           "aff": "Indianapolis Power Light", 
+                           "name": "Manuel Barata"
+                  }, 
+                  {
+                           "aff": "China University Of Geosciences", 
+                           "name": "Xiangyu Guang"
+                  }, 
+                  {
+                           "aff": "University Of Bern", 
+                           "name": "Hans S Pratisto"
+                  }, 
+                  {
+                           "aff": "European Aeronautic Defence And Space Co Germany", 
+                           "name": "H Seidel"
+                  }, 
+                  {
+                           "aff": "British American Tobacco", 
+                           "name": "Patrice Lerouge"
+                  }, 
+                  {
+                           "aff": "South China Normal University", 
+                           "name": "Huilan Ao"
+                  }, 
+                  {
+                           "aff": "Universiti Teknologi Mara", 
+                           "name": "Puteri Nor Ashikin Megat Yunus"
+                  }, 
+                  {
+                           "aff": "Universiti Teknologi Mara", 
+                           "name": "L K Teh"
+                  }, 
+                  {
+                           "aff": "Department Of Biochemistry University Of Oxford", 
+                           "name": "J Merregaert"
+                  }, 
+                  {
+                           "aff": "University Of Cadiz", 
+                           "name": "Casimiro Mantell Serrano"
+                  }, 
+                  {
+                           "aff": "National Institute On Aging", 
+                           "name": "Olga D Carlson"
+                  }, 
+                  {
+                           "aff": "University Of Bedfordshire", 
+                           "name": "Jon Silverman"
+                  }, 
+                  {
+                           "aff": "University Of Washington", 
+                           "name": "Taylor G Sandison"
+                  }, 
+                  {
+                           "aff": "Sharif University Of Technology", 
+                           "name": "M Emadi"
+                  }, 
+                  {
+                           "aff": "Department Of Biochemistry University Of Oxford", 
+                           "name": "John Taylor"
+                  }, 
+                  {
+                           "aff": "Operative Media", 
+                           "name": "Christoph M Isbert"
+                  }, 
+                  {
+                           "aff": "Central Research Institute Of Electric Power Industry", 
+                           "name": "Naoya Ohmura"
+                  }, 
+                  {
+                           "aff": "National Hospital Organization Osaka National Hospital", 
+                           "name": "Takuma Shirasaka"
+                  }, 
+                  {
+                           "aff": "Department Of Biochemistry University Of Oxford", 
+                           "name": "John De Jersey"
+                  }, 
+                  {
+                           "aff": "National Institute For Medical Research", 
+                           "name": "Melodie Cadillon"
+                  }, 
+                  {
+                           "aff": "University Of Washington", 
+                           "name": "Rodney J Y Ho"
+                  }, 
+                  {
+                           "aff": "Lamar University", 
+                           "name": "Sharan Kallolimath"
+                  }, 
+                  {
+                           "aff": "Swedish Meteorological And Hydrological Institute", 
+                           "name": "Ralf Doscher"
+                  }, 
+                  {
+                           "aff": "University Of Mississippi Medical Center", 
+                           "name": "Matthew T Tull"
+                  }, 
+                  {
+                           "aff": "Laboratories Central Des Ponts Et Chaussees France", 
+                           "name": "F Taillade"
+                  }, 
+                  {
+                           "aff": "Institute Of Chemical Physics Of The Academy Of Sciences Of The Ussr Ussr", 
+                           "name": "L V Skalkina"
+                  }, 
+                  {
+                           "aff": "China University Of Geosciences", 
+                           "name": "Xueqi Xia"
+                  }, 
+                  {
+                           "aff": "Naturex Incorporated South Hackensack New Jersey United States Of America", 
+                           "name": "Alvin Ibarra"
+                  }, 
+                  {
+                           "aff": "Universidade Estadual De Londrina", 
+                           "name": "V P Rincao"
+                  }, 
+                  {
+                           "aff": "Department Of Biochemistry University Of Oxford", 
+                           "name": "Akira Ito"
+                  }, 
+                  {
+                           "aff": "Wave Broadband", 
+                           "name": "Masataka Ohira"
+                  }, 
+                  {
+                           "aff": "United States Public Health Service", 
+                           "name": "David Wong"
+                  }, 
+                  {
+                           "aff": "Frontier Communications", 
+                           "name": "T Hashikawa"
+                  }, 
+                  {
+                           "aff": "Harbin Institute Of Technology", 
+                           "name": "Yong Huang"
+                  }, 
+                  {
+                           "aff": "Henkel", 
+                           "name": "Shantanu Gupta"
+                  }, 
+                  {
+                           "aff": "Lyon Villeurbanne", 
+                           "name": "A Souifi"
+                  }, 
+                  {
+                           "aff": "Kindai University", 
+                           "name": "Masatoshi Kudo"
+                  }, 
+                  {
+                           "aff": "Harbin Institute Of Technology", 
+                           "name": "Jing Zhao"
+                  }, 
+                  {
+                           "aff": "Sandia National Laboratories", 
+                           "name": "J F E Johnson"
+                  }, 
+                  {
+                           "aff": "Lifl France", 
+                           "name": "Mien Forget"
+                  }, 
+                  {
+                           "aff": "Lamar University", 
+                           "name": "Jiri Selig"
+                  }, 
+                  {
+                           "aff": "Kindai University", 
+                           "name": "H Kiwamoto"
+                  }, 
+                  {
+                           "aff": "Kindai University", 
+                           "name": "Keiichi Sugimura"
+                  }, 
+                  {
+                           "aff": "National Institute On Aging", 
+                           "name": "Josephine M Egan"
+                  }, 
+                  {
+                           "aff": "University Of Washington", 
+                           "name": "Mirela Andronescu"
+                  }, 
+                  {
+                           "aff": "Department Of Engineering Science University Of Oxford", 
+                           "name": "Chaojyun Huang"
+                  }, 
+                  {
+                           "aff": "Department Of Engineering Science University Of Oxford", 
+                           "name": "Deuhu Cui"
+                  }, 
+                  {
+                           "aff": "University Of Cadiz", 
+                           "name": "M Rodriguez"
+                  }, 
+                  {
+                           "aff": "Sandia National Laboratories", 
+                           "name": "J C Zolper"
+                  }, 
+                  {
+                           "aff": "The Great Atlantic Pacific Tea Company", 
+                           "name": "P V Ramaraju"
+                  }, 
+                  {
+                           "aff": "University Of Washington", 
+                           "name": "Mari Ostendorf"
+                  }, 
+                  {
+                           "aff": "University Of Dallas", 
+                           "name": "P P Antich"
+                  }, 
+                  {
+                           "aff": "Sandia National Laboratories", 
+                           "name": "R E Jorgenson"
+                  }, 
+                  {
+                           "aff": "Sandia National Laboratories", 
+                           "name": "R Mittra"
+                  }, 
+                  {
+                           "aff": "University Of Mississippi Medical Center", 
+                           "name": "Cas Kruitwagen"
+                  }, 
+                  {
+                           "aff": "Sandia National Laboratories", 
+                           "name": "F El Gabaly"
+                  }, 
+                  {
+                           "aff": "University Of Malaya", 
+                           "name": "Nassar B G Rasool"
+                  }, 
+                  {
+                           "aff": "Xia Llc Hayward Ca Usa", 
+                           "name": "W Hennig"
+                  }, 
+                  {
+                           "aff": "Air Force Research Laboratories", 
+                           "name": "Erik Blasch"
+                  }, 
+                  {
+                           "aff": "National Plant Quarantine Service Gunsan 573 879 Korea", 
+                           "name": "Seung Hwan Heo"
+                  }, 
+                  {
+                           "aff": "Sandia National Laboratories", 
+                           "name": "Gary Rochau"
+                  }, 
+                  {
+                           "aff": "Joseph Fourier University", 
+                           "name": "M Desort"
+                  }, 
+                  {
+                           "aff": "Harbin Institute Of Technology", 
+                           "name": "Lewei Li"
+                  }, 
+                  {
+                           "aff": "Harbin Institute Of Technology", 
+                           "name": "Fujuan Guo"
+                  }, 
+                  {
+                           "aff": "Harbin Institute Of Technology", 
+                           "name": "Lianshan Lin"
+                  }, 
+                  {
+                           "aff": "Azabu University", 
+                           "name": "T Moriguchi"
+                  }, 
+                  {
+                           "aff": "Sandia National Laboratories", 
+                           "name": "J L Porter"
+                  }, 
+                  {
+                           "aff": "University Of Malaya", 
+                           "name": "Rafidah Md Noor"
+                  }, 
+                  {
+                           "aff": "Universidade Estadual De Londrina", 
+                           "name": "C Nozawa"
+                  }, 
+                  {
+                           "aff": "University Of Washington", 
+                           "name": "Jami Moksness"
+                  }, 
+                  {
+                           "aff": "Sharif University Of Technology", 
+                           "name": "Saman Ashkiani"
+                  }, 
+                  {
+                           "aff": "Medical University Of Vienna", 
+                           "name": "Anna Sawicka"
+                  }, 
+                  {
+                           "aff": "University Of Washington", 
+                           "name": "Leung Tsang"
+                  }, 
+                  {
+                           "aff": "Universidade Estadual De Londrina", 
+                           "name": "Gilberto Da Silva Guizelin"
+                  }, 
+                  {
+                           "aff": "Real", 
+                           "name": "J M Perez De La Lastra"
+                  }, 
+                  {
+                           "aff": "Department Of Pediatrics University Medical School", 
+                           "name": "S Scorba"
+                  }, 
+                  {
+                           "aff": "Harbin Institute Of Technology", 
+                           "name": "J W Qiu"
+                  }, 
+                  {
+                           "aff": "Lamar University", 
+                           "name": "Jiang Zhou"
+                  }, 
+                  {
+                           "aff": "National Institute For Medical Research", 
+                           "name": "Amu Therwath"
+                  }, 
+                  {
+                           "aff": "Harbin Institute Of Technology", 
+                           "name": "Guilin Li"
+                  }, 
+                  {
+                           "aff": "National Institute On Aging", 
+                           "name": "Stuart Maudsley"
+                  }, 
+                  {
+                           "aff": "University Of California Santa Cruz", 
+                           "name": "D D E Long"
+                  }, 
+                  {
+                           "aff": "Sharif University Of Technology", 
+                           "name": "Mahmood K Razavi"
+                  }, 
+                  {
+                           "aff": "Csiro Marine Laboratories", 
+                           "name": "D J W Moriarty"
+                  }, 
+                  {
+                           "aff": "Department Of Biochemistry University Of Oxford", 
+                           "name": "Bernard L Trumpower"
+                  }, 
+                  {
+                           "aff": "Lulea University Of Technology", 
+                           "name": "Karin Axelsson"
+                  }, 
+                  {
+                           "aff": "University Of Washington", 
+                           "name": "Wayne J Katon"
+                  }, 
+                  {
+                           "aff": "Real", 
+                           "name": "R C Galindo"
+                  }, 
+                  {
+                           "aff": "Harbin Institute Of Technology", 
+                           "name": "Y Z Wang"
+                  }, 
+                  {
+                           "aff": "University Of Washington", 
+                           "name": "Lisa H Williams"
+                  }, 
+                  {
+                           "aff": "Mississippi College", 
+                           "name": "Bruno H Ch Stricker"
+                  }, 
+                  {
+                           "aff": "University Of Washington", 
+                           "name": "Chrystie Hill"
+                  }, 
+                  {
+                           "aff": "Principal Financial Group", 
+                           "name": "Kristine L Verdin"
+                  }, 
+                  {
+                           "aff": "Department Of Biochemistry University Of Oxford", 
+                           "name": "P Bhusawang"
+                  }, 
+                  {
+                           "aff": "Harbin Institute Of Technology", 
+                           "name": "Wang Youshan"
+                  }, 
+                  {
+                           "aff": "Concordia University", 
+                           "name": "C Y Su"
+                  }, 
+                  {
+                           "aff": "University Of Bern", 
+                           "name": "S T Ochsenbein"
+                  }, 
+                  {
+                           "aff": "Universiti Teknologi Mara", 
+                           "name": "Nina Korlina Madzhi"
+                  }, 
+                  {
+                           "aff": "University Of Washington", 
+                           "name": "Peter D Ward"
+                  }, 
+                  {
+                           "aff": "National Institute Of Malaria Research", 
+                           "name": "Aditya P Dash"
+                  }, 
+                  {
+                           "aff": "Harbin Institute Of Technology", 
+                           "name": "Zhenshen Qu"
+                  }, 
+                  {
+                           "aff": "Harbin Institute Of Technology", 
+                           "name": "Li Songjing"
+                  }, 
+                  {
+                           "aff": "Sandia National Laboratories", 
+                           "name": "E M Waisman"
+                  }, 
+                  {
+                           "aff": "University Of California Santa Cruz", 
+                           "name": "Gary A Glatzmaier"
+                  }, 
+                  {
+                           "aff": "Moscow Institute Of Physics And Technology", 
+                           "name": "K Malitsky"
+                  }, 
+                  {
+                           "aff": "Department Of Engineering Science University Of Oxford", 
+                           "name": "Kenji Takanaka"
+                  }, 
+                  {
+                           "aff": "Harbin Institute Of Technology", 
+                           "name": "Shengyang He"
+                  }, 
+                  {
+                           "aff": "Ryhov Hospital", 
+                           "name": "Ludek Vavruch"
+                  }, 
+                  {
+                           "aff": "Harbin Institute Of Technology", 
+                           "name": "Yaqin Zhao"
+                  }, 
+                  {
+                           "aff": "Universidade Estadual De Londrina", 
+                           "name": "Mario Sergio Mantovani"
+                  }, 
+                  {
+                           "aff": "Sandia National Laboratories", 
+                           "name": "Mark D Ladd"
+                  }, 
+                  {
+                           "aff": "Bulgarian Academy Of Sciences", 
+                           "name": "Zlatina Naydenova"
+                  }, 
+                  {
+                           "aff": "Universidade Estadual De Londrina", 
+                           "name": "R E Carvalho Linhares"
+                  }, 
+                  {
+                           "aff": "Universidade Estadual De Londrina", 
+                           "name": "Marco Aurelio Alves De Freitas Barbosa"
+                  }, 
+                  {
+                           "aff": "Department Of Biochemistry University Of Oxford", 
+                           "name": "Nitza L Diazblanco"
+                  }, 
+                  {
+                           "aff": "Department Of Engineering Science University Of Oxford", 
+                           "name": "M Bacic"
+                  }, 
+                  {
+                           "aff": "Sandia National Laboratories", 
+                           "name": "S E Bisson"
+                  }, 
+                  {
+                           "aff": "European Aeronautic Defence And Space Co Germany", 
+                           "name": "Christoph Stahl"
+                  }, 
+                  {
+                           "aff": "Sharif University Of Technology", 
+                           "name": "Saeed R Khosravi"
+                  }, 
+                  {
+                           "aff": "Department Of Biochemistry University Of Oxford", 
+                           "name": "Jose F Rodriguezquinones"
+                  }, 
+                  {
+                           "aff": "Lulea University Of Technology", 
+                           "name": "G Hillerstrom"
+                  }, 
+                  {
+                           "aff": "Concordia University", 
+                           "name": "T D Bui"
+                  }, 
+                  {
+                           "aff": "Department Of Biochemistry University Of Oxford", 
+                           "name": "Aleksi Heino"
+                  }, 
+                  {
+                           "aff": "University Of Malaya", 
+                           "name": "S T Tay"
+                  }, 
+                  {
+                           "aff": "Lyon Villeurbanne", 
+                           "name": "M Hocevar"
+                  }, 
+                  {
+                           "aff": "Hematologic Malignancy Branch And Department Of Laboratory Medicine Center For Clinical Services Goyang Korea", 
+                           "name": "Sunyoung Kong"
+                  }, 
+                  {
+                           "aff": "L Abri", 
+                           "name": "Monia Loulou"
+                  }, 
+                  {
+                           "aff": "University Of Malaya", 
+                           "name": "Behnam Kamalidehghan"
+                  }, 
+                  {
+                           "aff": "National Institute Of Malaria Research", 
+                           "name": "Vas Dev"
+                  }, 
+                  {
+                           "aff": "Sandia National Laboratories", 
+                           "name": "Rush D Robinett"
+                  }, 
+                  {
+                           "aff": "University Of Science And Technology Beijing", 
+                           "name": "Jianxiong Wan"
+                  }, 
+                  {
+                           "aff": "University Of California Santa Cruz", 
+                           "name": "Daniel Fernandez"
+                  }, 
+                  {
+                           "aff": "Harbin Institute Of Technology", 
+                           "name": "Hengzhi Fu"
+                  }, 
+                  {
+                           "aff": "University Of Washington", 
+                           "name": "M Sznaier"
+                  }, 
+                  {
+                           "aff": "Center For Pioneering Medicine Phys Research Cpmr Korea Electrotechnol Research Institute Keri Ansan", 
+                           "name": "C H Shon"
+                  }, 
+                  {
+                           "aff": "Sandia National Laboratories", 
+                           "name": "G Allen Vawter"
+                  }, 
+                  {
+                           "aff": "Institute Of Gene Biology Russian Academy Of Sciences Vavilova Str 34 5 119334 Moscow Russia", 
+                           "name": "Seraphima K Semyenova"
+                  }, 
+                  {
+                           "aff": "Sezione Infn Di Roma Roma Italy", 
+                           "name": "K Mair"
+                  }, 
+                  {
+                           "aff": "Joseph Fourier University", 
+                           "name": "Alain Morand"
+                  }, 
+                  {
+                           "aff": "Multimedia University", 
+                           "name": "Junaidi Abdullah"
+                  }, 
+                  {
+                           "aff": "University Of California Santa Cruz", 
+                           "name": "James A Estes"
+                  }, 
+                  {
+                           "aff": "Harbin Institute Of Technology", 
+                           "name": "F Zhou"
+                  }, 
+                  {
+                           "aff": "Universiti Teknologi Mara", 
+                           "name": "Norhaslinda Nasuha"
+                  }, 
+                  {
+                           "aff": "Universidade Paranaense", 
+                           "name": "Celina Sayuri Shiraishi"
+                  }, 
+                  {
+                           "aff": "University Of Washington", 
+                           "name": "M P Anantram"
+                  }, 
+                  {
+                           "aff": "University Of California Santa Cruz", 
+                           "name": "Paul L Koch"
+                  }, 
+                  {
+                           "aff": "Du Pont Uk Ltd Londonderry", 
+                           "name": "J R Mccormick"
+                  }, 
+                  {
+                           "aff": "Biomimetics And Materials Chemistry Laboratory", 
+                           "name": "Adriana Bigi"
+                  }, 
+                  {
+                           "aff": "Department Of Pathology Changhai Hospital Shanghai 200433 P R China", 
+                           "name": "Dalie Ma"
+                  }, 
+                  {
+                           "aff": "Harbin Institute Of Technology", 
+                           "name": "Fan Wen"
+                  }, 
+                  {
+                           "aff": "Harbin Institute Of Technology", 
+                           "name": "Y Bai"
+                  }, 
+                  {
+                           "aff": "Sezione Infn Di Roma Roma Italy", 
+                           "name": "A A Alves"
+                  }, 
+                  {
+                           "aff": "Universidade Estadual De Londrina", 
+                           "name": "\u00e2Ngela M F Falleiros"
+                  }, 
+                  {
+                           "aff": "Middlesex County College", 
+                           "name": "Anwar R Padhani"
+                  }, 
+                  {
+                           "aff": "University Of Washington", 
+                           "name": "Liefeng Bo"
+                  }, 
+                  {
+                           "aff": "Frontier Communications", 
+                           "name": "E Rausell"
+                  }, 
+                  {
+                           "aff": "Santiago", 
+                           "name": "E Roca"
+                  }, 
+                  {
+                           "aff": "Medical University Of Vienna", 
+                           "name": "Rainer Oberbauer"
+                  }, 
+                  {
+                           "aff": "University Of California Santa Cruz", 
+                           "name": "Adrienne L Zihlman"
+                  }, 
+                  {
+                           "aff": "Multimedia University", 
+                           "name": "Wannoorshahida Mohdisa"
+                  }, 
+                  {
+                           "aff": "Sharif University Of Technology", 
+                           "name": "A H Kokabi"
+                  }, 
+                  {
+                           "aff": "Department Of Phys And Technology Dnepropetrovsk National University Dnepropetrovsk Ukraine", 
+                           "name": "Sergey E Zirka"
+                  }, 
+                  {
+                           "aff": "Bioversity International", 
+                           "name": "N Roux"
+                  }, 
+                  {
+                           "aff": "Department Of Engineering Science University Of Oxford", 
+                           "name": "Jian Xu"
+                  }, 
+                  {
+                           "aff": "University Of Engineering And Technology Lahore", 
+                           "name": "Shaker Mayo"
+                  }, 
+                  {
+                           "aff": "Yokohama National University", 
+                           "name": "K Sato"
+                  }, 
+                  {
+                           "aff": "University Of Petroleum And Energy Studies", 
+                           "name": "Rajesh Singh"
+                  }, 
+                  {
+                           "aff": "Sharif University Of Technology", 
+                           "name": "Mehdi Fardmanesh"
+                  }, 
+                  {
+                           "aff": "Institute Of Gene Biology Russian Academy Of Sciences Vavilova Str 34 5 119334 Moscow Russia", 
+                           "name": "Vadim B Vasilyev"
+                  }, 
+                  {
+                           "aff": "Harbin Institute Of Technology", 
+                           "name": "Chunwei Song"
+                  }, 
+                  {
+                           "aff": "Sandia National Laboratories", 
+                           "name": "Ralph W Young"
+                  }, 
+                  {
+                           "aff": "University Of Kiel", 
+                           "name": "Frank Daschner"
+                  }, 
+                  {
+                           "aff": "Multimedia University", 
+                           "name": "M S Sidhu"
+                  }, 
+                  {
+                           "aff": "National Institute On Aging", 
+                           "name": "Vinayakumar Prabhu"
+                  }, 
+                  {
+                           "aff": "Department Of Engineering Science University Of Oxford", 
+                           "name": "Mark Cannon"
+                  }, 
+                  {
+                           "aff": "Harbin Institute Of Technology", 
+                           "name": "Zhao Guifan"
+                  }, 
+                  {
+                           "aff": "University Of Malaya", 
+                           "name": "Wai Loonho"
+                  }, 
+                  {
+                           "aff": "National Institute Of Standards And Technology Center For Neutron Research 100 Bureau Drive Gaithersburg Md 20899 6102 Usa", 
+                           "name": "Boualem Hammouda"
+                  }, 
+                  {
+                           "aff": "Universidade Estadual De Londrina", 
+                           "name": "Ana Paula De Souza Fortaleza"
+                  }, 
+                  {
+                           "aff": "Azerbaijan National Academy Of Sciences", 
+                           "name": "E Mahmudov"
+                  }, 
+                  {
+                           "aff": "University Of Mississippi Medical Center", 
+                           "name": "Michael D Hebert"
+                  }, 
+                  {
+                           "aff": "Marlow Industries", 
+                           "name": "John B White"
+                  }, 
+                  {
+                           "aff": "Lulea University Of Technology", 
+                           "name": "Birgitta Lindberg"
+                  }, 
+                  {
+                           "aff": "Harbin Institute Of Technology", 
+                           "name": "D C Xu"
+                  }, 
+                  {
+                           "aff": "University Of California Santa Cruz", 
+                           "name": "Yibing Lin"
+                  }, 
+                  {
+                           "aff": "Department Of Biochemistry University Of Oxford", 
+                           "name": "Chinnadurai Veeramani"
+                  }, 
+                  {
+                           "aff": "Harbin Institute Of Technology", 
+                           "name": "Ju Youlun"
+                  }, 
+                  {
+                           "aff": "Queensland Brain Institute Brisbane Australia", 
+                           "name": "Charlotte R Flavell"
+                  }, 
+                  {
+                           "aff": "University Of Ontario Institute Of Technology", 
+                           "name": "James D Eklund"
+                  }, 
+                  {
+                           "aff": "Costa Inc", 
+                           "name": "Akihiko Tonouchi"
+                  }, 
+                  {
+                           "aff": "Mississippi College", 
+                           "name": "Phillip A Spagnolo"
+                  }, 
+                  {
+                           "aff": "Department Of Engineering Science University Of Oxford", 
+                           "name": "Haoyuan Chang"
+                  }, 
+                  {
+                           "aff": "Mpb Communications Incorporated Canada", 
+                           "name": "Wes Jamroz"
+                  }, 
+                  {
+                           "aff": "Yokohama National University", 
+                           "name": "K Shudo"
+                  }, 
+                  {
+                           "aff": "University Of Washington", 
+                           "name": "Santica M Marcovina"
+                  }, 
+                  {
+                           "aff": "Department Of Biochemistry University Of Oxford", 
+                           "name": "Donald J Winzor"
+                  }, 
+                  {
+                           "aff": "Frontier Communications", 
+                           "name": "Marco Molinari"
+                  }, 
+                  {
+                           "aff": "Department Of Biochemistry University Of Oxford", 
+                           "name": "Paul Modrich"
+                  }, 
+                  {
+                           "aff": "Eotvos Lorand University", 
+                           "name": "Andras Molnar"
+                  }, 
+                  {
+                           "aff": "British American Tobacco", 
+                           "name": "Frazer Lowe"
+                  }, 
+                  {
+                           "aff": "University Of Washington", 
+                           "name": "Thomas Quinn"
+                  }, 
+                  {
+                           "aff": "Mit Lincoln Laboratory", 
+                           "name": "H E Lambert"
+                  }, 
+                  {
+                           "aff": "Department Of Pediatrics University Medical School", 
+                           "name": "L Marodi"
+                  }, 
+                  {
+                           "aff": "Medical University Of Vienna", 
+                           "name": "Christian Seiser"
+                  }, 
+                  {
+                           "aff": "University Of Kiel", 
+                           "name": "W Bensch"
+                  }, 
+                  {
+                           "aff": "Harbin Institute Of Technology", 
+                           "name": "Yaowu Wang"
+                  }, 
+                  {
+                           "aff": "University Of Washington", 
+                           "name": "Charles Loop"
+                  }, 
+                  {
+                           "aff": "Harbin Institute Of Technology", 
+                           "name": "Yan Chen"
+                  }, 
+                  {
+                           "aff": "Moscow Institute Of Physics And Technology", 
+                           "name": "E N Ragozin"
+                  }, 
+                  {
+                           "aff": "Cooper Tire Rubber Company", 
+                           "name": "R Reynolds"
+                  }, 
+                  {
+                           "aff": "University Of Dallas", 
+                           "name": "J P Fonseka"
+                  }, 
+                  {
+                           "aff": "Lamar University", 
+                           "name": "S P Lahoti"
+                  }, 
+                  {
+                           "aff": "Department Of Engineering Science University Of Oxford", 
+                           "name": "Suzkai Hsiung"
+                  }, 
+                  {
+                           "aff": "Santiago", 
+                           "name": "Angel Varela"
+                  }, 
+                  {
+                           "aff": "Mit Lincoln Laboratory", 
+                           "name": "C M Keller"
+                  }, 
+                  {
+                           "aff": "Toshiba Research And Development Center Tokyo Shibaura Electric Company Ltd", 
+                           "name": "Tamon Inouye"
+                  }, 
+                  {
+                           "aff": "Biomed Central", 
+                           "name": "R E Barr"
+                  }, 
+                  {
+                           "aff": "Universiti Teknologi Mara", 
+                           "name": "A K Nur Fadzeelah"
+                  }, 
+                  {
+                           "aff": "University Of Washington", 
+                           "name": "Randall S Perry"
+                  }, 
+                  {
+                           "aff": "Sandia National Laboratories", 
+                           "name": "F P Doty"
+                  }, 
+                  {
+                           "aff": "Harbin Institute Of Technology", 
+                           "name": "Liu Jixiao"
+                  }, 
+                  {
+                           "aff": "Renault", 
+                           "name": "Aurelien Schmied"
+                  }, 
+                  {
+                           "aff": "University Of Washington", 
+                           "name": "Steven E Kahn"
+                  }, 
+                  {
+                           "aff": "European Aeronautic Defence And Space Co Germany", 
+                           "name": "Wolfgang Ensinger"
+                  }, 
+                  {
+                           "aff": "Sandia National Laboratories", 
+                           "name": "Terry J Garino"
+                  }, 
+                  {
+                           "aff": "Harbin Institute Of Technology", 
+                           "name": "Wuxing Jing"
+                  }, 
+                  {
+                           "aff": "Harbin Institute Of Technology", 
+                           "name": "Changxing Ding"
+                  }, 
+                  {
+                           "aff": "University Of Mississippi Medical Center", 
+                           "name": "M Prokop"
+                  }, 
+                  {
+                           "aff": "The Great Atlantic Pacific Tea Company", 
+                           "name": "Srikanth"
+                  }, 
+                  {
+                           "aff": "Universita Di Torino Clinica Neurologica Italy Italy", 
+                           "name": "Lorenzo Pinessi"
+                  }, 
+                  {
+                           "aff": "Yokohama National University", 
+                           "name": "Junji Shikata"
+                  }, 
+                  {
+                           "aff": "National Institute On Aging", 
+                           "name": "Stefano Volpato"
+                  }, 
+                  {
+                           "aff": "Lamar University", 
+                           "name": "Peggy Doerschuk"
+                  }, 
+                  {
+                           "aff": "National Institute On Aging", 
+                           "name": "Chikako Tanaka"
+                  }, 
+                  {
+                           "aff": "University Of Gdansk", 
+                           "name": "Anna Pawlik"
+                  }, 
+                  {
+                           "aff": "University Of Washington", 
+                           "name": "M Azadeh"
+                  }, 
+                  {
+                           "aff": "University Of Washington", 
+                           "name": "Sai Zhang"
+                  }, 
+                  {
+                           "aff": "South China Normal University", 
+                           "name": "Huaimin Gu"
+                  }, 
+                  {
+                           "aff": "Queensland Brain Institute Brisbane Australia", 
+                           "name": "Timothy W Bredy"
+                  }, 
+                  {
+                           "aff": "Department Of Engineering Science University Of Oxford", 
+                           "name": "J M A Ashbourn"
+                  }, 
+                  {
+                           "aff": "Sandia National Laboratories", 
+                           "name": "Sarah M Hoppe"
+                  }, 
+                  {
+                           "aff": "Bulgarian Academy Of Sciences", 
+                           "name": "Konstantin Grancharov"
+                  }, 
+                  {
+                           "aff": "Department Of Biochemistry University Of Oxford", 
+                           "name": "Robert W Bryant"
+                  }, 
+                  {
+                           "aff": "Harbin Institute Of Technology", 
+                           "name": "Yanyan Chu"
+                  }, 
+                  {
+                           "aff": "North China Electr Power University Beijing", 
+                           "name": "Haining Zhou"
+                  }, 
+                  {
+                           "aff": "University Of Washington", 
+                           "name": "Deborah Thomasjones"
+                  }, 
+                  {
+                           "aff": "Sharif University Of Technology", 
+                           "name": "A Moftakharzadeh"
+                  }, 
+                  {
+                           "aff": "Lulea University Of Technology", 
+                           "name": "Jerker Delsing"
+                  }, 
+                  {
+                           "aff": "Max Planck Institut Fur Sonnensystemforschung Max Planck Str 2 37191 Katlenburg Lindau Germany", 
+                           "name": "M S Madjarska"
+                  }, 
+                  {
+                           "aff": "National Institute For Medical Research", 
+                           "name": "Pezhman Mirshahi"
+                  }, 
+                  {
+                           "aff": "University Of Botswana", 
+                           "name": "Joseph E Mbaiwa"
+                  }, 
+                  {
+                           "aff": "Department Of Biochemistry University Of Oxford", 
+                           "name": "Ali Okuyucu"
+                  }, 
+                  {
+                           "aff": "Swedish Meteorological And Hydrological Institute", 
+                           "name": "Klaus Wyser"
+                  }, 
+                  {
+                           "aff": "Grenoble Institute Of Technology", 
+                           "name": "Jeanchristophe Crebier"
+                  }, 
+                  {
+                           "aff": "University Of Washington", 
+                           "name": "R D Olson"
+                  }, 
+                  {
+                           "aff": "Frontier Communications", 
+                           "name": "E G Jones"
+                  }, 
+                  {
+                           "aff": "Henkel", 
+                           "name": "Poliang Liu"
+                  }, 
+                  {
+                           "aff": "Capital Medical University", 
+                           "name": "Shaoxia Zi"
+                  }, 
+                  {
+                           "aff": "Department Of Biochemistry University Of Oxford", 
+                           "name": "Kodukkur Viswanathan Pugalendi"
+                  }, 
+                  {
+                           "aff": "Institute Of Research", 
+                           "name": "M Sarma"
+                  }, 
+                  {
+                           "aff": "Central Research Institute Of Electric Power Industry", 
+                           "name": "Masahiko Morita"
+                  }, 
+                  {
+                           "aff": "Instituto Portugues Do Mar E Da Atmosfera", 
+                           "name": "T Colombo"
+                  }, 
+                  {
+                           "aff": "Sandia National Laboratories", 
+                           "name": "Darryn Fleming"
+                  }, 
+                  {
+                           "aff": "University Of Bern", 
+                           "name": "S Kleppek"
+                  }, 
+                  {
+                           "aff": "National Institute On Aging", 
+                           "name": "Michele Pearson"
+                  }, 
+                  {
+                           "aff": "Medical University Of Vienna", 
+                           "name": "Manuela Hofner"
+                  }, 
+                  {
+                           "aff": "Harbin Institute Of Technology", 
+                           "name": "Y L Ju"
+                  }, 
+                  {
+                           "aff": "University Of Washington", 
+                           "name": "Megan F Karalus"
+                  }, 
+                  {
+                           "aff": "Zhengzhou Information Science And Technology Institute Zhengzhou China", 
+                           "name": "Xiangyang Luo"
+                  }, 
+                  {
+                           "aff": "University Of Bern", 
+                           "name": "C C Raible"
+                  }, 
+                  {
+                           "aff": "University Of California Santa Cruz", 
+                           "name": "Jean P Brodie"
+                  }, 
+                  {
+                           "aff": "University Of Washington", 
+                           "name": "Elton T Young"
+                  }, 
+                  {
+                           "aff": "Kindai University", 
+                           "name": "Takashi Harada"
+                  }, 
+                  {
+                           "aff": "National Institute On Aging", 
+                           "name": "Rafael De Cabo"
+                  }, 
+                  {
+                           "aff": "Department Of Biochemistry University Of Oxford", 
+                           "name": "Michael R Blackburn"
+                  }, 
+                  {
+                           "aff": "University Of Kansas School Of Medicine", 
+                           "name": "John S Neuberger"
+                  }, 
+                  {
+                           "aff": "China University Of Geosciences", 
+                           "name": "Ning Qiu"
+                  }, 
+                  {
+                           "aff": "National Hospital Organization Sendai Medical Center Department Of Surgery Sendai Japan", 
+                           "name": "Kazunori Takeda"
+                  }, 
+                  {
+                           "aff": "Materials Research And Development Rte Corporation", 
+                           "name": "Ian Webber"
+                  }, 
+                  {
+                           "aff": "Eastman Chemical Company", 
+                           "name": "Derren Ready"
+                  }, 
+                  {
+                           "aff": "Department Of Biochemistry University Of Oxford", 
+                           "name": "Duygu Erol Suvaci"
+                  }, 
+                  {
+                           "aff": "Costa Inc", 
+                           "name": "B Sampson"
+                  }, 
+                  {
+                           "aff": "Department Of Biochemistry University Of Oxford", 
+                           "name": "C Canchaya"
+                  }, 
+                  {
+                           "aff": "National Institute On Aging", 
+                           "name": "Jack M Guralnik"
+                  }, 
+                  {
+                           "aff": "Center For Global Health Centers For Disease Control And Prevention Atlanta Ga Usa", 
+                           "name": "Jordan W Tappero"
+                  }, 
+                  {
+                           "aff": "L Abri", 
+                           "name": "Mohamed Mosbah"
+                  }, 
+                  {
+                           "aff": "R M K Engineering College Kavaraipettai India", 
+                           "name": "R Jagadeesh Kannan"
+                  }, 
+                  {
+                           "aff": "Harbin Institute Of Technology", 
+                           "name": "Huifeng Tan"
+                  }, 
+                  {
+                           "aff": "Sezione Infn Di Roma Roma Italy", 
+                           "name": "A Cardini"
+                  }, 
+                  {
+                           "aff": "University Of Malaya", 
+                           "name": "H Mokhlis"
+                  }, 
+                  {
+                           "aff": "Phys Technology Bundesanstalt Braunschweig Germany", 
+                           "name": "F X Hebrank"
+                  }, 
+                  {
+                           "aff": "Department Of Phys And Technology Dnepropetrovsk National University Dnepropetrovsk Ukraine", 
+                           "name": "Yuriy I Moroz"
+                  }, 
+                  {
+                           "aff": "University Of California Santa Cruz", 
+                           "name": "V Fadeyev"
+                  }, 
+                  {
+                           "aff": "Universiti Teknologi Mara", 
+                           "name": "Siti Nor Samrah A Rahim"
+                  }, 
+                  {
+                           "aff": "Harbin Institute Of Technology", 
+                           "name": "Yongchao Yang"
+                  }, 
+                  {
+                           "aff": "Sandia National Laboratories", 
+                           "name": "Jason Stamp"
+                  }, 
+                  {
+                           "aff": "Real", 
+                           "name": "A J Conejo"
+                  }, 
+                  {
+                           "aff": "Yokohama National University", 
+                           "name": "Tsutomu Matsumoto"
+                  }, 
+                  {
+                           "aff": "University Of Washington", 
+                           "name": "R Namani"
+                  }, 
+                  {
+                           "aff": "Delhi School Of Economics", 
+                           "name": "J V Meenakshi"
+                  }, 
+                  {
+                           "aff": "University Of Kiel", 
+                           "name": "R Knochel"
+                  }, 
+                  {
+                           "aff": "Harbin Institute Of Technology", 
+                           "name": "Qian Wu"
+                  }, 
+                  {
+                           "aff": "Harbin Institute Of Technology", 
+                           "name": "Jiehe Sui"
+                  }, 
+                  {
+                           "aff": "University Of Kiel", 
+                           "name": "Martha Poisot"
+                  }, 
+                  {
+                           "aff": "University Of Science And Technology Beijing", 
+                           "name": "Qun Zhang"
+                  }, 
+                  {
+                           "aff": "Windsor University School Of Medicine", 
+                           "name": "S Bandyopadhyay"
+                  }, 
+                  {
+                           "aff": "Universiti Teknologi Mara", 
+                           "name": "Hanunah Othman"
+                  }, 
+                  {
+                           "aff": "Boston College", 
+                           "name": "John M Boyer"
+                  }, 
+                  {
+                           "aff": "Eotvos Lorand University", 
+                           "name": "Gabor Sramko"
+                  }, 
+                  {
+                           "aff": "Matsushita Electronics Corporation Japan", 
+                           "name": "Morio Inoue"
+                  }, 
+                  {
+                           "aff": "Matsushita Electronics Corporation Japan", 
+                           "name": "Emiko Sugiura"
+                  }, 
+                  {
+                           "aff": "National Institute On Aging", 
+                           "name": "Titilola Iyun"
+                  }, 
+                  {
+                           "aff": "Harbin Institute Of Technology", 
+                           "name": "Ligang"
+                  }, 
+                  {
+                           "aff": "Sandia National Laboratories", 
+                           "name": "N C Bartelt"
+                  }, 
+                  {
+                           "aff": "Iraqi Special Operations Forces", 
+                           "name": "Oecd"
+                  }, 
+                  {
+                           "aff": "Stfidtische Nervenklinik Langenhagen", 
+                           "name": "Walter Massing"
+                  }, 
+                  {
+                           "aff": "University Of California Santa Cruz", 
+                           "name": "J F Vesecky"
+                  }, 
+                  {
+                           "aff": "Nera", 
+                           "name": "Y Thodesen"
+                  }, 
+                  {
+                           "aff": "National Institute On Aging", 
+                           "name": "Patrizia Fattoretti"
+                  }, 
+                  {
+                           "aff": "University Of Washington", 
+                           "name": "Paul Javid"
+                  }, 
+                  {
+                           "aff": "I Physikalisches Institut Universitat Zu Koln Zulpicher Str 77 50937 Koln Germany", 
+                           "name": "Sven Thorwirth"
+                  }, 
+                  {
+                           "aff": "University Of California Santa Cruz", 
+                           "name": "Jason X Prochaska"
+                  }, 
+                  {
+                           "aff": "Santos", 
+                           "name": "Manoel Medeiros"
+                  }, 
+                  {
+                           "aff": "Department Of Biochemistry University Of Oxford", 
+                           "name": "S Pongsamart"
+                  }, 
+                  {
+                           "aff": "Department Of Biochemistry University Of Oxford", 
+                           "name": "Ciska Boucherie"
+                  }, 
+                  {
+                           "aff": "Lyon Villeurbanne", 
+                           "name": "N Baboux"
+                  }, 
+                  {
+                           "aff": "Harbin Institute Of Technology", 
+                           "name": "Aiguo Wu"
+                  }, 
+                  {
+                           "aff": "University Of California Santa Cruz", 
+                           "name": "Jorge Cortes"
+                  }, 
+                  {
+                           "aff": "Harbin Institute Of Technology", 
+                           "name": "Jiwen Cui"
+                  }, 
+                  {
+                           "aff": "Universidade Federal Do Abc", 
+                           "name": "Vivian M O Carioni"
+                  }, 
+                  {
+                           "aff": "Np Photonics Incorporated Usa", 
+                           "name": "Jie Zong"
+                  }, 
+                  {
+                           "aff": "Department Of Biochemistry University Of Oxford", 
+                           "name": "Jyrki Heino"
+                  }, 
+                  {
+                           "aff": "Eotvos Lorand University", 
+                           "name": "Albert Albert"
+                  }, 
+                  {
+                           "aff": "United States Army Research Laboratory", 
+                           "name": "Christian Fazi"
+                  }, 
+                  {
+                           "aff": "University Of Washington", 
+                           "name": "Leona L Eggert"
+                  }, 
+                  {
+                           "aff": "Asahikawa Medical College", 
+                           "name": "Tatsuhisa Takahashi"
+                  }, 
+                  {
+                           "aff": "University Of Science And Technology Beijing", 
+                           "name": "Fengchao Li"
+                  }, 
+                  {
+                           "aff": "University Of Malaya", 
+                           "name": "M Hamzah"
+                  }, 
+                  {
+                           "aff": "Windsor University School Of Medicine", 
+                           "name": "Yash Aneja"
+                  }, 
+                  {
+                           "aff": "Universiti Teknologi Mara", 
+                           "name": "W R Wan Rosalina"
+                  }, 
+                  {
+                           "aff": "Department Of Pathology Changhai Hospital Shanghai 200433 P R China", 
+                           "name": "Chenguang Bai"
+                  }, 
+                  {
+                           "aff": "Grenoble Institute Of Technology", 
+                           "name": "C Schaeffer"
+                  }, 
+                  {
+                           "aff": "Istituto Di Fisica Dell Universita Bari", 
+                           "name": "S Mongelli"
+                  }, 
+                  {
+                           "aff": "University Of Washington", 
+                           "name": "Samir S Deeb"
+                  }, 
+                  {
+                           "aff": "Department Of Biochemistry University Of Oxford", 
+                           "name": "B Davies"
+                  }, 
+                  {
+                           "aff": "Harbin Institute Of Technology", 
+                           "name": "Bo Wu"
+                  }, 
+                  {
+                           "aff": "Grenoble Institute Of Technology", 
+                           "name": "Y Philibert"
+                  }, 
+                  {
+                           "aff": "International Rhino Foundation", 
+                           "name": "Nico Van Strien"
+                  }, 
+                  {
+                           "aff": "North China Electr Power University Beijing", 
+                           "name": "Daping Xu"
+                  }, 
+                  {
+                           "aff": "University Of Massachusetts Boston", 
+                           "name": "Emily E Wheeler"
+                  }, 
+                  {
+                           "aff": "University Of Washington", 
+                           "name": "J Sandhu"
+                  }, 
+                  {
+                           "aff": "Walchand College Of Engineering Sangli", 
+                           "name": "S Shefali"
+                  }, 
+                  {
+                           "aff": "Yokohama National University", 
+                           "name": "M Toramaru"
+                  }, 
+                  {
+                           "aff": "Norwegian Institute For Nature Research Nina", 
+                           "name": "Henrik Lindhjem"
+                  }, 
+                  {
+                           "aff": "Sandia National Laboratories", 
+                           "name": "Richard J Buss"
+                  }, 
+                  {
+                           "aff": "University Of Kiel", 
+                           "name": "Hannelore Katzke"
+                  }, 
+                  {
+                           "aff": "University Of Washington", 
+                           "name": "J G Kingsolver"
+                  }, 
+                  {
+                           "aff": "University Of Malaya", 
+                           "name": "Jamilah Mohamad"
+                  }, 
+                  {
+                           "aff": "University Of Washington", 
+                           "name": "S K Thukral"
+                  }, 
+                  {
+                           "aff": "University Of Bern", 
+                           "name": "Thomas F Stocker"
+                  }, 
+                  {
+                           "aff": "Rigaku", 
+                           "name": "Akira Kishi"
+                  }, 
+                  {
+                           "aff": "University Of Washington", 
+                           "name": "Laurel J Orr"
+                  }, 
+                  {
+                           "aff": "University Of Bern", 
+                           "name": "H P Weber"
+                  }, 
+                  {
+                           "aff": "University Of Malaya", 
+                           "name": "Eraj Humayun Mirza"
+                  }, 
+                  {
+                           "aff": "Middlesex County College", 
+                           "name": "K S Elhaddad"
+                  }, 
+                  {
+                           "aff": "Electron And Radar Dev Establ Bangalore India", 
+                           "name": "A A Bhagwat"
+                  }, 
+                  {
+                           "aff": "Santos", 
+                           "name": "A M Atta"
+                  }, 
+                  {
+                           "aff": "Harbin Institute Of Technology", 
+                           "name": "Shao Jingbo"
+                  }, 
+                  {
+                           "aff": "Harbin Institute Of Technology", 
+                           "name": "Meng Jing"
+                  }, 
+                  {
+                           "aff": "Yokohama National University", 
+                           "name": "Ryuji Kohno"
+                  }, 
+                  {
+                           "aff": "Augenklinik Universitatskliniken Des Saarlands Homburg Saar Xx", 
+                           "name": "Bernhild Heinemann"
+                  }, 
+                  {
+                           "aff": "Department Of Biochemistry University Of Oxford", 
+                           "name": "D J Allen"
+                  }, 
+                  {
+                           "aff": "University Of Bern", 
+                           "name": "Flurin Koenz"
+                  }, 
+                  {
+                           "aff": "Santiago", 
+                           "name": "Maria M Clusella"
+                  }, 
+                  {
+                           "aff": "British American Tobacco", 
+                           "name": "Antonella Bassi"
+                  }, 
+                  {
+                           "aff": "Department Of Biochemistry University Of Oxford", 
+                           "name": "Pekka Rappu"
+                  }, 
+                  {
+                           "aff": "University Of Washington", 
+                           "name": "M J Damborg"
+                  }, 
+                  {
+                           "aff": "Harbin Institute Of Technology", 
+                           "name": "Chuan Wang"
+                  }, 
+                  {
+                           "aff": "Universiti Teknologi Mara", 
+                           "name": "H I Maarof"
+                  }, 
+                  {
+                           "aff": "University Of Washington", 
+                           "name": "Kris V Kowdley"
+                  }, 
+                  {
+                           "aff": "Medical University Of Vienna", 
+                           "name": "Georg Weitzer"
+                  }, 
+                  {
+                           "aff": "Costa Inc", 
+                           "name": "Yoshihiko Kumamoto"
+                  }, 
+                  {
+                           "aff": "Matsushita Electronics Corporation Japan", 
+                           "name": "Hisashi Watanabe"
+                  }, 
+                  {
+                           "aff": "M V Lomonosov Moscow Academy Of Chemical Technology Russia Russia", 
+                           "name": "R Kh Sadikova"
+                  }, 
+                  {
+                           "aff": "University Of Washington", 
+                           "name": "Antao Chen"
+                  }, 
+                  {
+                           "aff": "Harbin Institute Of Technology", 
+                           "name": "Huijun Gao"
+                  }, 
+                  {
+                           "aff": "Yokohama National University", 
+                           "name": "Yasumasa Fujii"
+                  }, 
+                  {
+                           "aff": "University Of Dallas", 
+                           "name": "Kamran Kiasaleh"
+                  }, 
+                  {
+                           "aff": "Csiro Marine Laboratories", 
+                           "name": "Peter C Pollard"
+                  }, 
+                  {
+                           "aff": "British American Tobacco", 
+                           "name": "Loic Faye"
+                  }, 
+                  {
+                           "aff": "Harbin Institute Of Technology", 
+                           "name": "Wei Zhang"
+                  }, 
+                  {
+                           "aff": "Harbin Institute Of Technology", 
+                           "name": "Ge Lianzheng"
+                  }, 
+                  {
+                           "aff": "Tennet", 
+                           "name": "T Fadriansyah"
+                  }, 
+                  {
+                           "aff": "University Of Washington", 
+                           "name": "Chi Ho Eric Cheung"
+                  }, 
+                  {
+                           "aff": "General Electric Co Usa", 
+                           "name": "Nabeel A Riza"
+                  }, 
+                  {
+                           "aff": "University Of Washington", 
+                           "name": "Dale Wilson"
+                  }, 
+                  {
+                           "aff": "University Of Science And Technology Beijing", 
+                           "name": "Li Wang"
+                  }, 
+                  {
+                           "aff": "Central Research Institute Of Electric Power Industry", 
+                           "name": "M Miki"
+                  }, 
+                  {
+                           "aff": "Kindai University", 
+                           "name": "Motoya Nagase"
+                  }, 
+                  {
+                           "aff": "Medical University Of Vienna", 
+                           "name": "Barbara Bohle"
+                  }, 
+                  {
+                           "aff": "Multimedia University", 
+                           "name": "Saravanan Muthaiyah"
+                  }, 
+                  {
+                           "aff": "Institute Of High Energy Physics", 
+                           "name": "Weihsing Ma"
+                  }, 
+                  {
+                           "aff": "Department Of Biochemistry University Of Oxford", 
+                           "name": "Michelle Grilley"
+                  }, 
+                  {
+                           "aff": "University Of Washington", 
+                           "name": "John C Kramlich"
+                  }, 
+                  {
+                           "aff": "Yokohama National University", 
+                           "name": "Shigenori Ueda"
+                  }, 
+                  {
+                           "aff": "Istituto Di Fisica Dell Universita Bari", 
+                           "name": "A Romano"
+                  }, 
+                  {
+                           "aff": "Joseph Fourier University", 
+                           "name": "P Duval"
+                  }, 
+                  {
+                           "aff": "Universiti Teknologi Mara", 
+                           "name": "H Hashim"
+                  }, 
+                  {
+                           "aff": "Department Of Surgery Safdarjung Hospital New Delhi 110029 India", 
+                           "name": "Chintamani"
+                  }, 
+                  {
+                           "aff": "Department Of Biochemistry University Of Oxford", 
+                           "name": "Anton Berns"
+                  }, 
+                  {
+                           "aff": "Department Of Biochemistry University Of Oxford", 
+                           "name": "Leslie R Noble"
+                  }, 
+                  {
+                           "aff": "University Of Malaya", 
+                           "name": "Yalda Khosravi"
+                  }, 
+                  {
+                           "aff": "Linkoepings University Sweden", 
+                           "name": "Tomas Stroemberg"
+                  }, 
+                  {
+                           "aff": "Harbin Institute Of Technology", 
+                           "name": "Yu Xue"
+                  }, 
+                  {
+                           "aff": "Medical University Of Vienna", 
+                           "name": "Elisabeth Simboeck"
+                  }, 
+                  {
+                           "aff": "Little", 
+                           "name": "Robert S Little"
+                  }, 
+                  {
+                           "aff": "University Of Gdansk", 
+                           "name": "Angelika Kaczynska"
+                  }, 
+                  {
+                           "aff": "Sandia National Laboratories", 
+                           "name": "M S Carroll"
+                  }, 
+                  {
+                           "aff": "National Institute Of Malaria Research", 
+                           "name": "Gauri Awasthi"
+                  }, 
+                  {
+                           "aff": "Universidade Estadual De Londrina", 
+                           "name": "Edson Luis De Azambuja Ribeiro"
+                  }, 
+                  {
+                           "aff": "Department Of Biochemistry University Of Oxford", 
+                           "name": "Albert E Chudley"
+                  }, 
+                  {
+                           "aff": "Harbin Institute Of Technology", 
+                           "name": "Zhang Xingyuan"
+                  }, 
+                  {
+                           "aff": "Harbin Institute Of Technology", 
+                           "name": "Fanyi Meng"
+                  }, 
+                  {
+                           "aff": "National Institute Of Radiol Science Chiba Japan", 
+                           "name": "Hideo Murayama"
+                  }, 
+                  {
+                           "aff": "University Of Bern", 
+                           "name": "Michael Ith"
+                  }, 
+                  {
+                           "aff": "Sharif University Of Technology", 
+                           "name": "T Ghodselahi"
+                  }, 
+                  {
+                           "aff": "Ntt Opto Electron Laboratories Tokyo Japan", 
+                           "name": "Renshi Sawada"
+                  }, 
+                  {
+                           "aff": "Multimedia University", 
+                           "name": "Ammar W Mohemmed"
+                  }, 
+                  {
+                           "aff": "Universiti Teknologi Mara", 
+                           "name": "Mohd Ameer Yuslan Razmi"
+                  }, 
+                  {
+                           "aff": "Department Of Biochemistry University Of Oxford", 
+                           "name": "Akira Nakai"
+                  }, 
+                  {
+                           "aff": "Department Of Biochemistry University Of Oxford", 
+                           "name": "Kristina Gruden"
+                  }, 
+                  {
+                           "aff": "China University Of Geosciences", 
+                           "name": "Qingye Hou"
+                  }, 
+                  {
+                           "aff": "Universiti Teknologi Mara", 
+                           "name": "Suhaili Beeran Kutty"
+                  }, 
+                  {
+                           "aff": "University Of Washington", 
+                           "name": "Jie Liu"
+                  }, 
+                  {
+                           "aff": "College Of Economics Hue University", 
+                           "name": "Tran Huu Tuan"
+                  }, 
+                  {
+                           "aff": "Sezione Infn Di Roma Roma Italy", 
+                           "name": "S Furcas"
+                  }, 
+                  {
+                           "aff": "University Of Washington", 
+                           "name": "Kevin Lai"
+                  }, 
+                  {
+                           "aff": "Steno Diabetes Center Gentofte Denmark", 
+                           "name": "F Pociot"
+                  }, 
+                  {
+                           "aff": "Narsee Monjee Institute Of Management Studies", 
+                           "name": "R M Samant"
+                  }, 
+                  {
+                           "aff": "Joseph Fourier University", 
+                           "name": "David Ehrenreich"
+                  }, 
+                  {
+                           "aff": "University Of Ontario Institute Of Technology", 
+                           "name": "Carolyn Mcgregor"
+                  }, 
+                  {
+                           "aff": "Harbin Institute Of Technology", 
+                           "name": "Shen Yingjie"
+                  }, 
+                  {
+                           "aff": "Harbin Institute Of Technology", 
+                           "name": "Jiangyuan Mei"
+                  }, 
+                  {
+                           "aff": "University Of Washington", 
+                           "name": "Henry M Levy"
+                  }, 
+                  {
+                           "aff": "Institut F Theoretische Physik Technische University Berlin Hardenbergstr 36 10623 Berlin Germany", 
+                           "name": "Andreas Knorr"
+                  }, 
+                  {
+                           "aff": "National Institute On Aging", 
+                           "name": "Kevin G Becker"
+                  }, 
+                  {
+                           "aff": "Harbin Institute Of Technology", 
+                           "name": "Yao Baoquan"
+                  }, 
+                  {
+                           "aff": "Grenoble Institute Of Technology", 
+                           "name": "Dacbinh Nguyen"
+                  }, 
+                  {
+                           "aff": "Kindai University", 
+                           "name": "Atsuhiro Kurooka"
+                  }, 
+                  {
+                           "aff": "Institute Of High Current Electronics Tosmk Russia", 
+                           "name": "A Kharlov"
+                  }, 
+                  {
+                           "aff": "Henkel", 
+                           "name": "B Neff"
+                  }, 
+                  {
+                           "aff": "Universita Di Torino Clinica Neurologica Italy Italy", 
+                           "name": "Innocenzo Rainero"
+                  }, 
+                  {
+                           "aff": "Costa Inc", 
+                           "name": "Hisami Ikeda"
+                  }, 
+                  {
+                           "aff": "University Of Washington", 
+                           "name": "Dhirubhai V Kanani"
+                  }, 
+                  {
+                           "aff": "Universiti Teknologi Mara", 
+                           "name": "Syaidatul Akma Mohd Zuki"
+                  }, 
+                  {
+                           "aff": "Harbin Institute Of Technology", 
+                           "name": "Y F Li"
+                  }, 
+                  {
+                           "aff": "University Of California Santa Cruz", 
+                           "name": "Jane Wilhelms"
+                  }, 
+                  {
+                           "aff": "University Of Zaragoza", 
+                           "name": "P Laguna"
+                  }, 
+                  {
+                           "aff": "Sandia National Laboratories", 
+                           "name": "D B Sinars"
+                  }, 
+                  {
+                           "aff": "Harbin Institute Of Technology", 
+                           "name": "Xin Yang"
+                  }, 
+                  {
+                           "aff": "Oshima National College Of Maritime Technology", 
+                           "name": "Masaharu Fujii"
+                  }, 
+                  {
+                           "aff": "Department Of Biochemistry University Of Oxford", 
+                           "name": "David Baker"
+                  }, 
+                  {
+                           "aff": "Middlesex County College", 
+                           "name": "G S Conway"
+                  }, 
+                  {
+                           "aff": "Yokohama National University", 
+                           "name": "K Ohno"
+                  }, 
+                  {
+                           "aff": "Djecji Vrtic Trnoru\u017eIca Zagreb Hrvatska", 
+                           "name": "Josko Sindik"
+                  }, 
+                  {
+                           "aff": "National Institute On Aging", 
+                           "name": "Bronwen Martin"
+                  }, 
+                  {
+                           "aff": "University Of Kiel", 
+                           "name": "Hannes Horst"
+                  }, 
+                  {
+                           "aff": "Yokohama National University", 
+                           "name": "S Ohno"
+                  }, 
+                  {
+                           "aff": "University Of Gdansk", 
+                           "name": "Aleksandra Wiczk"
+                  }, 
+                  {
+                           "aff": "Dental School", 
+                           "name": "D Dessem"
+                  }, 
+                  {
+                           "aff": "Yokohama National University", 
+                           "name": "Kimio Kuramitsu"
+                  }, 
+                  {
+                           "aff": "Department Of Biochemistry University Of Oxford", 
+                           "name": "Jan Gettemans"
+                  }, 
+                  {
+                           "aff": "University Of Washington", 
+                           "name": "Jocelyn Takayesu"
+                  }, 
+                  {
+                           "aff": "Zhengzhou Information Science And Technology Institute Zhengzhou China", 
+                           "name": "Chunfang Yang"
+                  }, 
+                  {
+                           "aff": "Department Of Biochemistry University Of Oxford", 
+                           "name": "Miroslav Sulc"
+                  }, 
+                  {
+                           "aff": "Department Of Engineering Science University Of Oxford", 
+                           "name": "Fan Zhang"
+                  }, 
+                  {
+                           "aff": "Department Of Biochemistry University Of Oxford", 
+                           "name": "M Uysal"
+                  }, 
+                  {
+                           "aff": "University Of California Santa Cruz", 
+                           "name": "I G Parker"
+                  }, 
+                  {
+                           "aff": "White Oak Conservation", 
+                           "name": "Harold H Szu"
+                  }, 
+                  {
+                           "aff": "Sharif University Of Technology", 
+                           "name": "Kambiz Jamshidi"
+                  }, 
+                  {
+                           "aff": "National Institute On Aging", 
+                           "name": "Erin Golden"
+                  }, 
+                  {
+                           "aff": "Department Of Computer Architecture And System Programming Germany", 
+                           "name": "J Borcsok"
+                  }, 
+                  {
+                           "aff": "Harbin Institute Of Technology", 
+                           "name": "Guangyu Zhang"
+                  }, 
+                  {
+                           "aff": "Medical University Of Vienna", 
+                           "name": "Sabine Lagger"
+                  }, 
+                  {
+                           "aff": "Universidade Estadual De Londrina", 
+                           "name": "Lucineia Cunha Steca"
+                  }, 
+                  {
+                           "aff": "Asahikawa Medical College", 
+                           "name": "Akimasa Okuno"
+                  }, 
+                  {
+                           "aff": "Augenklinik Universitatskliniken Des Saarlands Homburg Saar Xx", 
+                           "name": "R Weik"
+                  }, 
+                  {
+                           "aff": "Sandia National Laboratories", 
+                           "name": "Pin Yang"
+                  }, 
+                  {
+                           "aff": "Russian Academy Of Sciences Institute Of Information Transmission Problems Moscow 127994 Russia Moscow 127994 Russia", 
+                           "name": "Vassily A Lyubetsky"
+                  }, 
+                  {
+                           "aff": "Air Force Research Laboratories", 
+                           "name": "Michael Minardi"
+                  }, 
+                  {
+                           "aff": "Harbin Institute Of Technology", 
+                           "name": "Duan Xiaoming"
+                  }, 
+                  {
+                           "aff": "Universiti Teknologi Mara", 
+                           "name": "Maniam Kaliannan"
+                  }, 
+                  {
+                           "aff": "University Dortmund", 
+                           "name": "Bernd Kuhlenkotter"
+                  }, 
+                  {
+                           "aff": "Department Of Biochemistry University Of Oxford", 
+                           "name": "Beauty E Omoruyi"
+                  }, 
+                  {
+                           "aff": "Laboratori Nazionali Del Sincerotrone Onen Frascati Roma", 
+                           "name": "F V Frazzoli"
+                  }, 
+                  {
+                           "aff": "U S Geological Survey 956 National Center Reston Va 20192 United States", 
+                           "name": "Paul C Hackley"
+                  }, 
+                  {
+                           "aff": "Institute Of High Energy Physics", 
+                           "name": "Yuehua Chou"
+                  }, 
+                  {
+                           "aff": "University Of Washington", 
+                           "name": "Paul Ciechanowski"
+                  }, 
+                  {
+                           "aff": "Institut F Theoretische Physik Technische University Berlin Hardenbergstr 36 10623 Berlin Germany", 
+                           "name": "Torben Winzer"
+                  }, 
+                  {
+                           "aff": "Harbin Institute Of Technology", 
+                           "name": "Yang Dongyu"
+                  }, 
+                  {
+                           "aff": "Multimedia University", 
+                           "name": "C Eswaran"
+                  }, 
+                  {
+                           "aff": "University Of Washington", 
+                           "name": "Joshua A Redstone"
+                  }, 
+                  {
+                           "aff": "British American Tobacco", 
+                           "name": "Mike Mcewan"
+                  }, 
+                  {
+                           "aff": "Sharif University Of Technology", 
+                           "name": "J A Salehi"
+                  }, 
+                  {
+                           "aff": "Kindai University", 
+                           "name": "T Kurita"
+                  }, 
+                  {
+                           "aff": "University Of Bern", 
+                           "name": "G Chaboussant"
+                  }, 
+                  {
+                           "aff": "Sandia National Laboratories", 
+                           "name": "David G Wilson"
+                  }, 
+                  {
+                           "aff": "University Of Washington", 
+                           "name": "Dieter Fox"
+                  }, 
+                  {
+                           "aff": "University Of Malaya", 
+                           "name": "M Ahmadzadehtalatapeh"
+                  }, 
+                  {
+                           "aff": "Real", 
+                           "name": "J Boaventura Cunha"
+                  }, 
+                  {
+                           "aff": "Department Of Biochemistry University Of Oxford", 
+                           "name": "Arthur G Palmer"
+                  }, 
+                  {
+                           "aff": "University Of Bern", 
+                           "name": "Cyril Marti"
+                  }, 
+                  {
+                           "aff": "University Of Washington", 
+                           "name": "Aseem Prakash"
+                  }, 
+                  {
+                           "aff": "Korea Maritime And Ocean University", 
+                           "name": "Sukyoub Kang"
+                  }, 
+                  {
+                           "aff": "Joseph Fourier University", 
+                           "name": "J C Marmeggi"
+                  }, 
+                  {
+                           "aff": "University Of Washington", 
+                           "name": "Larry R Dalton"
+                  }, 
+                  {
+                           "aff": "School Of Medicine And Medical Science", 
+                           "name": "Billy Bourke"
+                  }, 
+                  {
+                           "aff": "Universita Di Torino Clinica Neurologica Italy Italy", 
+                           "name": "Lodovico Bergamini"
+                  }, 
+                  {
+                           "aff": "Zhengzhou Information Science And Technology Institute Zhengzhou China", 
+                           "name": "Fenlin Liu"
+                  }, 
+                  {
+                           "aff": "Harbin Institute Of Technology", 
+                           "name": "Zhigang Chen"
+                  }, 
+                  {
+                           "aff": "Medical University Of Vienna", 
+                           "name": "Sonja Puz"
+                  }, 
+                  {
+                           "aff": "University Of Washington", 
+                           "name": "Mehran Mesbahi"
+                  }, 
+                  {
+                           "aff": "University Of Bern", 
+                           "name": "Axel Murk"
+                  }, 
+                  {
+                           "aff": "Harbin Institute Of Technology", 
+                           "name": "Dongyan Tang"
+                  }, 
+                  {
+                           "aff": "University Of Washington", 
+                           "name": "Lee Lee Choo"
+                  }, 
+                  {
+                           "aff": "Department Of Biochemistry University Of Oxford", 
+                           "name": "Camilla Nylund"
+                  }, 
+                  {
+                           "aff": "Department Of Engineering Science University Of Oxford", 
+                           "name": "Wenfung Pan"
+                  }, 
+                  {
+                           "aff": "University Of California Santa Cruz", 
+                           "name": "C Betancourt"
+                  }, 
+                  {
+                           "aff": "Henkel", 
+                           "name": "J T Huneke"
+                  }, 
+                  {
+                           "aff": "Department Of Biochemistry University Of Oxford", 
+                           "name": "Marco L Breuer"
+                  }, 
+                  {
+                           "aff": "North China Electr Power University Beijing", 
+                           "name": "Xiyun Yang"
+                  }, 
+                  {
+                           "aff": "China University Of Geosciences", 
+                           "name": "Yanjun Chang"
+                  }, 
+                  {
+                           "aff": "Division Of Plant Ecology And Evolution School Of Biological And Medical Sciences University Of St", 
+                           "name": "J R Kinghorn"
+                  }, 
+                  {
+                           "aff": "University Of Science And Technology Beijing", 
+                           "name": "Guoliang Chen"
+                  }, 
+                  {
+                           "aff": "University Of Kiel", 
+                           "name": "H Klein"
+                  }, 
+                  {
+                           "aff": "Sandia National Laboratories", 
+                           "name": "Bernadette A Hernandezsanchez"
+                  }, 
+                  {
+                           "aff": "Harbin Institute Of Technology", 
+                           "name": "Xiaolong Xue"
+                  }, 
+                  {
+                           "aff": "Multimedia University", 
+                           "name": "Murali Raman"
+                  }, 
+                  {
+                           "aff": "University Of Bern", 
+                           "name": "N Kampfer"
+                  }, 
+                  {
+                           "aff": "Department Of Biochemistry University Of Oxford", 
+                           "name": "Diana Gomezgarzon"
+                  }, 
+                  {
+                           "aff": "University Of Mississippi Medical Center", 
+                           "name": "Kim L Gratz"
+                  }, 
+                  {
+                           "aff": "University Of Engineering And Technology Lahore", 
+                           "name": "Farjana Nur"
+                  }, 
+                  {
+                           "aff": "Lyon Villeurbanne", 
+                           "name": "A Poncet"
+                  }, 
+                  {
+                           "aff": "Biomed Central", 
+                           "name": "David E Goertz"
+                  }, 
+                  {
+                           "aff": "Norrtalje Hospital Norrtalje", 
+                           "name": "S Viering"
+                  }, 
+                  {
+                           "aff": "Department Of Biochemistry University Of Oxford", 
+                           "name": "Helena Libalova"
+                  }, 
+                  {
+                           "aff": "Universidad Ceu Cardenal Herrera Spain", 
+                           "name": "Ricardo Gimeno"
+                  }, 
+                  {
+                           "aff": "Np Photonics Incorporated Usa", 
+                           "name": "Arturo Chavezpirson"
+                  }, 
+                  {
+                           "aff": "Multimedia University", 
+                           "name": "Martina Zachariasova"
+                  }, 
+                  {
+                           "aff": "Universidade Federal Do Abc", 
+                           "name": "Rodrigo Chelegao"
+                  }, 
+                  {
+                           "aff": "Center For Pioneering Medicine Phys Research Cpmr Korea Electrotechnol Research Institute Keri Ansan", 
+                           "name": "Hae Young Choi"
+                  }, 
+                  {
+                           "aff": "University Of Washington", 
+                           "name": "K Boyd Fackler"
+                  }, 
+                  {
+                           "aff": "Costa Inc", 
+                           "name": "Bryony Dean Franklin"
+                  }, 
+                  {
+                           "aff": "University Of Washington", 
+                           "name": "Daniel Halperin"
+                  }, 
+                  {
+                           "aff": "Centers For Disease Control And Prevention National Center For Environmental Health Division Of Environmental Hazards And Health Effects Atlanta Georgia", 
+                           "name": "Carol A Gotway"
+                  }, 
+                  {
+                           "aff": "Lutheran General Cancer Center", 
+                           "name": "Jon M Richards"
+                  }, 
+                  {
+                           "aff": "Harbin Institute Of Technology", 
+                           "name": "Chaoyong Li"
+                  }, 
+                  {
+                           "aff": "Harbin Institute Of Technology", 
+                           "name": "Li Ruifeng"
+                  }, 
+                  {
+                           "aff": "Universiti Teknologi Mara", 
+                           "name": "Mohd Firdaus Abdullah"
+                  }, 
+                  {
+                           "aff": "University Of Washington", 
+                           "name": "Sungup Choi"
+                  }, 
+                  {
+                           "aff": "Harbin Institute Of Technology", 
+                           "name": "Ma Yun Fei"
+                  }, 
+                  {
+                           "aff": "Harbin Institute Of Technology", 
+                           "name": "Yunliang Li"
+                  }, 
+                  {
+                           "aff": "University Of Washington", 
+                           "name": "Norman E Breslow"
+                  }, 
+                  {
+                           "aff": "Karl Franzens Universitat Graz", 
+                           "name": "E Hofer"
+                  }, 
+                  {
+                           "aff": "Materials Research And Development Rte Corporation", 
+                           "name": "M A Thompson"
+                  }, 
+                  {
+                           "aff": "Costa Inc", 
+                           "name": "Hiroshi Azuma"
+                  }, 
+                  {
+                           "aff": "Harbin Institute Of Technology", 
+                           "name": "Wang Yuezhu"
+                  }, 
+                  {
+                           "aff": "Joseph Fourier University", 
+                           "name": "D Staresinic"
+                  }, 
+                  {
+                           "aff": "Csiro Marine Laboratories", 
+                           "name": "William G Hunt"
+                  }, 
+                  {
+                           "aff": "University Of Malaya", 
+                           "name": "C H Raymond Ooi"
+                  }, 
+                  {
+                           "aff": "Department Of Biochemistry University Of Oxford", 
+                           "name": "Zafer Yurdakul"
+                  }, 
+                  {
+                           "aff": "Harbin Institute Of Technology", 
+                           "name": "Jie Liu"
+                  }, 
+                  {
+                           "aff": "British American Tobacco", 
+                           "name": "Stefania Morandi"
+                  }, 
+                  {
+                           "aff": "Sandia National Laboratories", 
+                           "name": "John H Gieske"
+                  }, 
+                  {
+                           "aff": "Harbin Institute Of Technology", 
+                           "name": "Jiajun Wen"
+                  }, 
+                  {
+                           "aff": "Jikei University School Of Medicine", 
+                           "name": "Moriaki Kusakabe"
+                  }, 
+                  {
+                           "aff": "Matsushita Electronics Corporation Japan", 
+                           "name": "Takashi Saito"
+                  }, 
+                  {
+                           "aff": "Sandia National Laboratories", 
+                           "name": "Olga B Spahn"
+                  }, 
+                  {
+                           "aff": "Swedish Meteorological And Hydrological Institute", 
+                           "name": "Mihaela Caian"
+                  }, 
+                  {
+                           "aff": "South China Normal University", 
+                           "name": "Da Xing"
+                  }, 
+                  {
+                           "aff": "Biomed Central", 
+                           "name": "M E Frijlink"
+                  }, 
+                  {
+                           "aff": "Sandia National Laboratories", 
+                           "name": "R D Horton"
+                  }, 
+                  {
+                           "aff": "Sandia National Laboratories", 
+                           "name": "Janelle Villone"
+                  }, 
+                  {
+                           "aff": "University Of Washington", 
+                           "name": "Airlie Chapman"
+                  }, 
+                  {
+                           "aff": "Dipt Di Elettronica E Telecomunicazioni Firenze University Italy", 
+                           "name": "G Vestri"
+                  }, 
+                  {
+                           "aff": "University Of Washington", 
+                           "name": "Gregory M Cooper"
+                  }, 
+                  {
+                           "aff": "Sandia National Laboratories", 
+                           "name": "Edward I Cole"
+                  }, 
+                  {
+                           "aff": "Universidade Estadual De Londrina", 
+                           "name": "Valter Harry Bumbieris Junior"
+                  }, 
+                  {
+                           "aff": "Moscow Institute Of Physics And Technology", 
+                           "name": "Andrei Krampuls"
+                  }, 
+                  {
+                           "aff": "Joseph Fourier University", 
+                           "name": "A M Lagrange"
+                  }, 
+                  {
+                           "aff": "University Of Washington", 
+                           "name": "L E Atlas"
+                  }, 
+                  {
+                           "aff": "Xia Llc Hayward Ca Usa", 
+                           "name": "Peter M Grudberg"
+                  }, 
+                  {
+                           "aff": "Department Of Pharmaceutics University Of Kuopio P O Box 1627 Fin 70211 Kuopio Finland", 
+                           "name": "Kristiina Jarvinen"
+                  }, 
+                  {
+                           "aff": "Operative Media", 
+                           "name": "C T Germer"
+                  }, 
+                  {
+                           "aff": "British American Tobacco", 
+                           "name": "Veronique Gomord"
+                  }, 
+                  {
+                           "aff": "Medical University Of Vienna", 
+                           "name": "Reinhard Brunmeir"
+                  }, 
+                  {
+                           "aff": "Santiago", 
+                           "name": "J Rivas"
+                  }, 
+                  {
+                           "aff": "Institute Of Chemical Physics Of The Academy Of Sciences Of The Ussr Ussr", 
+                           "name": "I K Kolchin"
+                  }, 
+                  {
+                           "aff": "Universiti Teknologi Mara", 
+                           "name": "Suhana Abu Hassan"
+                  }, 
+                  {
+                           "aff": "University Blaise Pascal France", 
+                           "name": "Michel Bolte"
+                  }, 
+                  {
+                           "aff": "University Of Mississippi Medical Center", 
+                           "name": "Hanna J Broome"
+                  }, 
+                  {
+                           "aff": "Bulgarian Academy Of Sciences", 
+                           "name": "Dimitar K Alargov"
+                  }, 
+                  {
+                           "aff": "Universidade Paranaense", 
+                           "name": "Eduardo Jose De Almeida Araujo"
+                  }, 
+                  {
+                           "aff": "University Of Washington", 
+                           "name": "Alexander E Pozhitkov"
+                  }, 
+                  {
+                           "aff": "Sandia National Laboratories", 
+                           "name": "K Hattar"
+                  }, 
+                  {
+                           "aff": "Santiago", 
+                           "name": "A O Jaunsen"
+                  }, 
+                  {
+                           "aff": "Kindai University", 
+                           "name": "Yungchol Park"
+                  }, 
+                  {
+                           "aff": "Sandia National Laboratories", 
+                           "name": "James Pasch"
+                  }, 
+                  {
+                           "aff": "Universidade Estadual De Londrina", 
+                           "name": "Manoel Dourado Bastos"
+                  }, 
+                  {
+                           "aff": "Nera", 
+                           "name": "Jostein Heimark"
+                  }, 
+                  {
+                           "aff": "Frontier Communications", 
+                           "name": "M G Leggio"
+                  }, 
+                  {
+                           "aff": "Sezione Infn Di Roma Roma Italy", 
+                           "name": "G Haefeli"
+                  }, 
+                  {
+                           "aff": "University Of Washington", 
+                           "name": "Qin Li"
+                  }, 
+                  {
+                           "aff": "Center For Pioneering Medicine Phys Research Cpmr Korea Electrotechnol Research Institute Keri Ansan", 
+                           "name": "Jong Uk Kim"
+                  }, 
+                  {
+                           "aff": "Department Of Biochemistry University Of Oxford", 
+                           "name": "Jose R Rodriguezmedina"
+                  }, 
+                  {
+                           "aff": "Henkel", 
+                           "name": "M Nguyen"
+                  }, 
+                  {
+                           "aff": "Linkoepings University Sweden", 
+                           "name": "Karin Wardell"
+                  }, 
+                  {
+                           "aff": "Sandia National Laboratories", 
+                           "name": "Shi Ying Lin"
+                  }, 
+                  {
+                           "aff": "Department Of Pathology Changhai Hospital Shanghai 200433 P R China", 
+                           "name": "Jianming Zheng"
+                  }, 
+                  {
+                           "aff": "Lamar University", 
+                           "name": "Sidney Lin"
+                  }, 
+                  {
+                           "aff": "Bulgarian Academy Of Sciences", 
+                           "name": "Pavleta S Denkova"
+                  }, 
+                  {
+                           "aff": "Universidade Paranaense", 
+                           "name": "Aristeu Vieira Da Silva"
+                  }, 
+                  {
+                           "aff": "Universiti Teknologi Mara", 
+                           "name": "Marianah Masrie"
+                  }, 
+                  {
+                           "aff": "University Of Engineering And Technology Lahore", 
+                           "name": "Linhtrung Nguyen"
+                  }, 
+                  {
+                           "aff": "Joseph Fourier University", 
+                           "name": "E Flavigny"
+                  }, 
+                  {
+                           "aff": "Sezione Infn Di Roma Roma Italy", 
+                           "name": "M Frosini"
+                  }, 
+                  {
+                           "aff": "University Of Science And Technology Beijing", 
+                           "name": "Ping Wu"
+                  }, 
+                  {
+                           "aff": "University Of Washington", 
+                           "name": "Rekha R Thomas"
+                  }, 
+                  {
+                           "aff": "Harbin Institute Of Technology", 
+                           "name": "Jianzhong Li"
+                  }, 
+                  {
+                           "aff": "Department Of Pathology Changhai Hospital Shanghai 200433 P R China", 
+                           "name": "Cen Qiu"
+                  }, 
+                  {
+                           "aff": "University Of Washington", 
+                           "name": "Lauren Anderson"
+                  }, 
+                  {
+                           "aff": "Multimedia University", 
+                           "name": "Miroslav Benco"
+                  }, 
+                  {
+                           "aff": "School Of Chemical And Materials Engineering Huangshi Institute Of Technology Huangshi 435003 Pr China", 
+                           "name": "S F Y Li"
+                  }, 
+                  {
+                           "aff": "Windsor University School Of Medicine", 
+                           "name": "Arunita Jaekel"
+                  }, 
+                  {
+                           "aff": "Medical University Of Vienna", 
+                           "name": "Martina Stary"
+                  }, 
+                  {
+                           "aff": "University Of California Santa Cruz", 
+                           "name": "Brian J Raney"
+                  }, 
+                  {
+                           "aff": "United States Army Research Laboratory", 
+                           "name": "Martin J Lahart"
+                  }, 
+                  {
+                           "aff": "The Great Atlantic Pacific Tea Company", 
+                           "name": "N Anogjnaaurora"
+                  }, 
+                  {
+                           "aff": "National Institute On Aging", 
+                           "name": "Minoru Yasuda"
+                  }, 
+                  {
+                           "aff": "Department Of Biochemistry University Of Oxford", 
+                           "name": "Wantong Yao"
+                  }, 
+                  {
+                           "aff": "Joseph Fourier University", 
+                           "name": "J Olofsson"
+                  }, 
+                  {
+                           "aff": "Sandia National Laboratories", 
+                           "name": "Stephen G Wright"
+                  }, 
+                  {
+                           "aff": "Medical University Of Vienna", 
+                           "name": "Gerda Egger"
+                  }, 
+                  {
+                           "aff": "Moscow Institute Of Physics And Technology", 
+                           "name": "Nikolay Chubinsky"
+                  }, 
+                  {
+                           "aff": "University Of Washington", 
+                           "name": "Tapan S Parikh"
+                  }, 
+                  {
+                           "aff": "University Of Washington", 
+                           "name": "Jun Xin"
+                  }, 
+                  {
+                           "aff": "Institute Of Chemical Physics Of The Academy Of Sciences Of The Ussr Ussr", 
+                           "name": "L Ya Margolis"
+                  }, 
+                  {
+                           "aff": "Sharif University Of Technology", 
+                           "name": "M A Vesaghi"
+                  }, 
+                  {
+                           "aff": "North China Electr Power University Beijing", 
+                           "name": "Xiaojuan Han"
+                  }, 
+                  {
+                           "aff": "British American Tobacco", 
+                           "name": "Riccardo Puntoni"
+                  }, 
+                  {
+                           "aff": "Karpenko Physico Mech Institute Academy Of Science Lvov Ukraine", 
+                           "name": "L Dikmarova"
+                  }, 
+                  {
+                           "aff": "University Of Dallas", 
+                           "name": "E Tsyganov"
+                  }, 
+                  {
+                           "aff": "Sandia National Laboratories", 
+                           "name": "Dennis P Roach"
+                  }, 
+                  {
+                           "aff": "Universiti Teknologi Mara", 
+                           "name": "R Yusoff"
+                  }, 
+                  {
+                           "aff": "National Institute On Aging", 
+                           "name": "Belinda Giorgetti"
+                  }, 
+                  {
+                           "aff": "Matsushita Electronics Corporation Japan", 
+                           "name": "Yoshihiro Todokoro"
+                  }, 
+                  {
+                           "aff": "Department Of Biochemistry University Of Oxford", 
+                           "name": "Graeme Bradley"
+                  }, 
+                  {
+                           "aff": "Department Of Biochemistry University Of Oxford", 
+                           "name": "Maarten Van Lohuizen"
+                  }, 
+                  {
+                           "aff": "University Of Malaya", 
+                           "name": "Wan Mohd Azhar Bin Ibrahim"
+                  }, 
+                  {
+                           "aff": "Department Of Mathematics Texas A&M University Tx", 
+                           "name": "Yanqiu Wang"
+                  }, 
+                  {
+                           "aff": "Lulea University Of Technology", 
+                           "name": "Sara Sandberg"
+                  }, 
+                  {
+                           "aff": "Mit Lincoln Laboratory", 
+                           "name": "D Dudgeon"
+                  }, 
+                  {
+                           "aff": "Phasex Corporation Usa", 
+                           "name": "Paula M Gallagherwetmore"
+                  }, 
+                  {
+                           "aff": "Linkoepings University Sweden", 
+                           "name": "Daniel M Karlsson"
+                  }, 
+                  {
+                           "aff": "University Of Kiel", 
+                           "name": "Yi Wang"
+                  }, 
+                  {
+                           "aff": "Sandia National Laboratories", 
+                           "name": "Timothy S Mcdonald"
+                  }, 
+                  {
+                           "aff": "University Of Washington", 
+                           "name": "K H Okeefe"
+                  }, 
+                  {
+                           "aff": "Asahikawa Medical College", 
+                           "name": "Miho Oshima"
+                  }, 
+                  {
+                           "aff": "Joseph Fourier University", 
+                           "name": "J C Augereau"
+                  }, 
+                  {
+                           "aff": "Asahikawa Medical College", 
+                           "name": "T Suzutani"
+                  }, 
+                  {
+                           "aff": "University Of California Santa Cruz", 
+                           "name": "R Adam Seger"
+                  }, 
+                  {
+                           "aff": "Sandia National Laboratories", 
+                           "name": "W A Hareland"
+                  }, 
+                  {
+                           "aff": "Middlesex County College", 
+                           "name": "P Harris"
+                  }, 
+                  {
+                           "aff": "Multimedia University", 
+                           "name": "Patrik Kamencay"
+                  }, 
+                  {
+                           "aff": "National Institute On Aging", 
+                           "name": "Alessia Delfino"
+                  }, 
+                  {
+                           "aff": "Universidade Estadual De Londrina", 
+                           "name": "Fabricio Jose Benati"
+                  }, 
+                  {
+                           "aff": "Wave Broadband", 
+                           "name": "V V Kopeikin"
+                  }, 
+                  {
+                           "aff": "Microchip Technology", 
+                           "name": "R Singal"
+                  }, 
+                  {
+                           "aff": "Harbin Institute Of Technology", 
+                           "name": "Dai Tongyu"
+                  }, 
+                  {
+                           "aff": "University Of Washington", 
+                           "name": "Tot Bui"
+                  }, 
+                  {
+                           "aff": "Dipt Di Elettronica E Telecomunicazioni Firenze University Italy", 
+                           "name": "R Fantacci"
+                  }, 
+                  {
+                           "aff": "Sandia National Laboratories", 
+                           "name": "J A Knapp"
+                  }, 
+                  {
+                           "aff": "Wave Broadband", 
+                           "name": "Christian J Grund"
+                  }, 
+                  {
+                           "aff": "Harbin Institute Of Technology", 
+                           "name": "Jinbao Li"
+                  }, 
+                  {
+                           "aff": "Universidade Estadual De Londrina", 
+                           "name": "Leandro Das Dores Ferreira Da Silva"
+                  }, 
+                  {
+                           "aff": "University Of Washington", 
+                           "name": "Tetsuo Hatsuda"
+                  }, 
+                  {
+                           "aff": "University Of California Santa Cruz", 
+                           "name": "J E Wright"
+                  }, 
+                  {
+                           "aff": "Sharif University Of Technology", 
+                           "name": "S H Hosseini"
+                  }, 
+                  {
+                           "aff": "Santiago", 
+                           "name": "Manuel Lama"
+                  }, 
+                  {
+                           "aff": "Harbin Institute Of Technology", 
+                           "name": "Zhang Qinyu"
+                  }, 
+                  {
+                           "aff": "Lulea University Of Technology", 
+                           "name": "Erika Svanstrom"
+                  }, 
+                  {
+                           "aff": "University Of California Santa Cruz", 
+                           "name": "P Chatterjee"
+                  }, 
+                  {
+                           "aff": "University Of Washington", 
+                           "name": "M M Eliot"
+                  }, 
+                  {
+                           "aff": "Sandia National Laboratories", 
+                           "name": "D K Serkland"
+                  }, 
+                  {
+                           "aff": "University Of California Santa Cruz", 
+                           "name": "Mark R Krumholz"
+                  }, 
+                  {
+                           "aff": "Pharmaceutical Development Pharmaceutical Division Kowa Company Ltd Chuo Tokyo 103 8433 Japan", 
+                           "name": "Tetsuro Sano"
+                  }, 
+                  {
+                           "aff": "University Of Cadiz", 
+                           "name": "Enrique Martinez De La Ossa"
+                  }, 
+                  {
+                           "aff": "Institute Of Phys Academy Of Science Of The Czech Republic Prague Czech Republic", 
+                           "name": "K Kral"
+                  }, 
+                  {
+                           "aff": "1Department Of Gastroenterology St Elisabeth Hospital Dorsten Germany", 
+                           "name": "Christoph Elsing"
+                  }, 
+                  {
+                           "aff": "Department Of Pharmaceutics University Of Kuopio P O Box 1627 Fin 70211 Kuopio Finland", 
+                           "name": "Jari Leskinen"
+                  }, 
+                  {
+                           "aff": "Assam University", 
+                           "name": "Rajat Kumar Pal"
+                  }, 
+                  {
+                           "aff": "Biomimetics And Materials Chemistry Laboratory", 
+                           "name": "Elisa Boanini"
+                  }, 
+                  {
+                           "aff": "Sharif University Of Technology", 
+                           "name": "Farrokh Aminifar"
+                  }, 
+                  {
+                           "aff": "Harbin Institute Of Technology", 
+                           "name": "Ping Zheng"
+                  }, 
+                  {
+                           "aff": "Laboratories Of Acoustics Cnrs University Du Maine France", 
+                           "name": "E Gaviot"
+                  }, 
+                  {
+                           "aff": "Department Of Engineering Science University Of Oxford", 
+                           "name": "Paul L Smith"
+                  }, 
+                  {
+                           "aff": "Kindai University", 
+                           "name": "Miki Nagashima"
+                  }, 
+                  {
+                           "aff": "Sandia National Laboratories", 
+                           "name": "Timothy J Boyle"
+                  }, 
+                  {
+                           "aff": "University Of Washington", 
+                           "name": "C D Jones"
+                  }, 
+                  {
+                           "aff": "University Of California Santa Cruz", 
+                           "name": "Alex Pang"
+                  }, 
+                  {
+                           "aff": "Nanostructures Incorporated Usa", 
+                           "name": "A R Shimkunas"
+                  }, 
+                  {
+                           "aff": "University Of Washington", 
+                           "name": "R A Yotter"
+                  }, 
+                  {
+                           "aff": "Harbin Institute Of Technology", 
+                           "name": "Xianhe Shao"
+                  }, 
+                  {
+                           "aff": "Department Of Biochemistry University Of Oxford", 
+                           "name": "Eveliina Pakula"
+                  }, 
+                  {
+                           "aff": "Sandia National Laboratories", 
+                           "name": "Phillip D Walkington"
+                  }, 
+                  {
+                           "aff": "Harbin Institute Of Technology", 
+                           "name": "Lining Sun"
+                  }, 
+                  {
+                           "aff": "School Of Medicine And Medical Science", 
+                           "name": "M Clyne"
+                  }, 
+                  {
+                           "aff": "Santiago", 
+                           "name": "M C Bujannunez"
+                  }, 
+                  {
+                           "aff": "University Of Malaya", 
+                           "name": "A S M A Haseeb"
+                  }, 
+                  {
+                           "aff": "Harbin Institute Of Technology", 
+                           "name": "Siyao Cheng"
+                  }, 
+                  {
+                           "aff": "University Of Engineering And Technology Lahore", 
+                           "name": "Nipa Chowdhury"
+                  }, 
+                  {
+                           "aff": "Institut F Theoretische Physik Technische University Berlin Hardenbergstr 36 10623 Berlin Germany", 
+                           "name": "Ermin Malic"
+                  }, 
+                  {
+                           "aff": "School Of Chemical And Materials Engineering Huangshi Institute Of Technology Huangshi 435003 Pr China", 
+                           "name": "Xinglan Liu"
+                  }, 
+                  {
+                           "aff": "Usthb", 
+                           "name": "Fatima Oulebsir Boumghar"
+                  }, 
+                  {
+                           "aff": "Sandia National Laboratories", 
+                           "name": "D M Fleetwood"
+                  }, 
+                  {
+                           "aff": "Harbin Institute Of Technology", 
+                           "name": "Hui Li"
+                  }, 
+                  {
+                           "aff": "Harbin Institute Of Technology", 
+                           "name": "Shu Jie"
+                  }, 
+                  {
+                           "aff": "Medical University Of Vienna", 
+                           "name": "Wolfgang J Miller"
+                  }, 
+                  {
+                           "aff": "Harbin Institute Of Technology", 
+                           "name": "Xiangyu Chen"
+                  }, 
+                  {
+                           "aff": "Frontier Communications", 
+                           "name": "M E Dellanna"
+                  }, 
+                  {
+                           "aff": "Xia Llc Hayward Ca Usa", 
+                           "name": "M Walby"
+                  }, 
+                  {
+                           "aff": "Department Of Pharmaceutics University Of Kuopio P O Box 1627 Fin 70211 Kuopio Finland", 
+                           "name": "Jarkko Ketolainen"
+                  }, 
+                  {
+                           "aff": "Joseph Fourier University", 
+                           "name": "Kien Phan Huy"
+                  }, 
+                  {
+                           "aff": "University Of California Santa Cruz", 
+                           "name": "Joshua Aizenman"
+                  }, 
+                  {
+                           "aff": "Harbin Institute Of Technology", 
+                           "name": "Mingfeng Wu"
+                  }, 
+                  {
+                           "aff": "Lamar University", 
+                           "name": "M P Sitlani"
+                  }, 
+                  {
+                           "aff": "Steno Diabetes Center Gentofte Denmark", 
+                           "name": "R L Nolsoe"
+                  }, 
+                  {
+                           "aff": "Mit Lincoln Laboratory", 
+                           "name": "D Sinno"
+                  }, 
+                  {
+                           "aff": "National Institute On Aging", 
+                           "name": "Moreno Solazzi"
+                  }, 
+                  {
+                           "aff": "Shanghai Institute For Systems Biomedicine Shanghai Jiao Tong University Shanghai 200240 P R China", 
+                           "name": "Yunping Qiu"
+                  }, 
+                  {
+                           "aff": "University Of Washington", 
+                           "name": "Andrew J Dombard"
+                  }, 
+                  {
+                           "aff": "Universiti Teknologi Mara", 
+                           "name": "Lee Yoot Khuan"
+                  }, 
+                  {
+                           "aff": "Harbin Institute Of Technology", 
+                           "name": "Shenglin Wu"
+                  }, 
+                  {
+                           "aff": "Lulea University Of Technology", 
+                           "name": "J Sternby"
+                  }, 
+                  {
+                           "aff": "Biomimetics And Materials Chemistry Laboratory", 
+                           "name": "C Capuccini"
+                  }, 
+                  {
+                           "aff": "University Of California Santa Cruz", 
+                           "name": "Sora L Kim"
+                  }, 
+                  {
+                           "aff": "Mit Lincoln Laboratory", 
+                           "name": "W M Campbell"
+                  }, 
+                  {
+                           "aff": "Mpb Communications Incorporated Canada", 
+                           "name": "Roman V Kruzelecky"
+                  }, 
+                  {
+                           "aff": "University Of Massachusetts Boston", 
+                           "name": "Michael A Milburn"
+                  }, 
+                  {
+                           "aff": "Gabriel Brothers", 
+                           "name": "Abdennaceur Kachouri"
+                  }, 
+                  {
+                           "aff": "National Institute On Aging", 
+                           "name": "Randall Brenneman"
+                  }, 
+                  {
+                           "aff": "Sandia National Laboratories", 
+                           "name": "M Jones"
+                  }, 
+                  {
+                           "aff": "University Of California Santa Cruz", 
+                           "name": "Ethan L Miller"
+                  }, 
+                  {
+                           "aff": "Sezione Infn Di Roma Roma Italy", 
+                           "name": "F Murtas"
+                  }, 
+                  {
+                           "aff": "Universidade Estadual De Londrina", 
+                           "name": "Joao Rodolfo Munhoz Ohara"
+                  }, 
+                  {
+                           "aff": "Department Of Biochemistry University Of Oxford", 
+                           "name": "Daehyun Seog"
+                  }, 
+                  {
+                           "aff": "Harbin Institute Of Technology", 
+                           "name": "Jingjie Guo"
+                  }, 
+                  {
+                           "aff": "Wave Broadband", 
+                           "name": "P A Morozov"
+                  }, 
+                  {
+                           "aff": "Sandia National Laboratories", 
+                           "name": "Gregory J Elbring"
+                  }, 
+                  {
+                           "aff": "College Of Engineering Arab Academy For Science And Technology Cairo Egypt", 
+                           "name": "K A Shehata"
+                  }, 
+                  {
+                           "aff": "Superior National School Of Advanced Techniques", 
+                           "name": "J Janecek"
+                  }, 
+                  {
+                           "aff": "University Of Washington", 
+                           "name": "Joseph Janes"
+                  }, 
+                  {
+                           "aff": "Moscow Institute Of Physics And Technology", 
+                           "name": "M S Luginin"
+                  }, 
+                  {
+                           "aff": "Multimedia University", 
+                           "name": "Magiswary Dorasamy"
+                  }, 
+                  {
+                           "aff": "Harbin Institute Of Technology", 
+                           "name": "Han Ji Qing"
+                  }, 
+                  {
+                           "aff": "Medical University Of Vienna", 
+                           "name": "Astrid Hagelkruys"
+                  }, 
+                  {
+                           "aff": "National Institute On Aging", 
+                           "name": "Carlo Bertonifreddari"
+                  }, 
+                  {
+                           "aff": "Swedish Meteorological And Hydrological Institute", 
+                           "name": "Torben Koenigk"
+                  }, 
+                  {
+                           "aff": "Sandia National Laboratories", 
+                           "name": "Thomas M Conboy"
+                  }, 
+                  {
+                           "aff": "Matsushita Electronics Corporation Japan", 
+                           "name": "Tadashi Imoriya"
+                  }, 
+                  {
+                           "aff": "Costa Inc", 
+                           "name": "Shirley Camp"
+                  }, 
+                  {
+                           "aff": "University Of Malaya", 
+                           "name": "Jamuna Vadivelu"
+                  }, 
+                  {
+                           "aff": "Medical University Of Vienna", 
+                           "name": "Maria Kalipciyan"
+                  }, 
+                  {
+                           "aff": "Costa Inc", 
+                           "name": "Yukio Osaki"
+                  }, 
+                  {
+                           "aff": "University Of California Santa Cruz", 
+                           "name": "D G Rabus"
+                  }, 
+                  {
+                           "aff": "Harbin Institute Of Technology", 
+                           "name": "Yudi Guo"
+                  }, 
+                  {
+                           "aff": "Medical University Of Vienna", 
+                           "name": "Alexandra Hollrigl"
+                  }, 
+                  {
+                           "aff": "University Of California Santa Cruz", 
+                           "name": "Michael Isaacson"
+                  }, 
+                  {
+                           "aff": "China University Of Geosciences", 
+                           "name": "Guoli Yuan"
+                  }, 
+                  {
+                           "aff": "Terex", 
+                           "name": "S Riter"
+                  }, 
+                  {
+                           "aff": "Universidade Paranaense", 
+                           "name": "Jorge Fernandes De Azevedo"
+                  }, 
+                  {
+                           "aff": "Department Of Computer Architecture And System Programming Germany", 
+                           "name": "Vahid Rezaei"
+                  }, 
+                  {
+                           "aff": "Universidad Ceu Cardenal Herrera Spain", 
+                           "name": "Juan M Nave"
+                  }, 
+                  {
+                           "aff": "University Of Bern", 
+                           "name": "S Muller"
+                  }, 
+                  {
+                           "aff": "University Of California Santa Cruz", 
+                           "name": "Scott A Brandt"
+                  }, 
+                  {
+                           "aff": "University Of Bern", 
+                           "name": "Horst Bunke"
+                  }, 
+                  {
+                           "aff": "Harbin Institute Of Technology", 
+                           "name": "Changhong Wang"
+                  }, 
+                  {
+                           "aff": "Kindai University", 
+                           "name": "Kinji Ishikawa"
+                  }, 
+                  {
+                           "aff": "Biomed Central", 
+                           "name": "Rebecca Richardskortum"
+                  }, 
+                  {
+                           "aff": "University Of Washington", 
+                           "name": "Ivan King"
+                  }, 
+                  {
+                           "aff": "Lamar University", 
+                           "name": "Judith Mann"
+                  }, 
+                  {
+                           "aff": "L Abri", 
+                           "name": "Yves Metivier"
+                  }, 
+                  {
+                           "aff": "Department Of Biochemistry University Of Oxford", 
+                           "name": "S W Edwards"
+                  }, 
+                  {
+                           "aff": "Institute Of Chemical Physics Of The Academy Of Sciences Of The Ussr Ussr", 
+                           "name": "N F Ermolenko"
+                  }, 
+                  {
+                           "aff": "Universiti Teknologi Mara", 
+                           "name": "I M Yassin"
+                  }, 
+                  {
+                           "aff": "Department Of Engineering Science University Of Oxford", 
+                           "name": "A Lakhtakia"
+                  }, 
+                  {
+                           "aff": "Sandia National Laboratories", 
+                           "name": "Sigifredo Gonzalez"
+                  }, 
+                  {
+                           "aff": "Biomed Central", 
+                           "name": "Tom Collier"
+                  }, 
+                  {
+                           "aff": "Department Of Engineering Science University Of Oxford", 
+                           "name": "Ting Zhu"
+                  }, 
+                  {
+                           "aff": "University Of Mississippi Medical Center", 
+                           "name": "Olle Ten Cate"
+                  }, 
+                  {
+                           "aff": "Institute Of Chemical Physics Of The Academy Of Sciences Of The Ussr Ussr", 
+                           "name": "L N Malashevich"
+                  }, 
+                  {
+                           "aff": "Harbin Institute Of Technology", 
+                           "name": "Wei Shi"
+                  }, 
+                  {
+                           "aff": "University Of Washington", 
+                           "name": "Michael D Ernst"
+                  }, 
+                  {
+                           "aff": "Yokohama National University", 
+                           "name": "Tsutomu Iida"
+                  }, 
+                  {
+                           "aff": "Kindai University", 
+                           "name": "Seijiro Shimada"
+                  }, 
+                  {
+                           "aff": "Harbin Institute Of Technology", 
+                           "name": "Liguo Chen"
+                  }, 
+                  {
+                           "aff": "University Of Washington", 
+                           "name": "Alice Ban Ke"
+                  }, 
+                  {
+                           "aff": "Department Of Pathology Changhai Hospital Shanghai 200433 P R China", 
+                           "name": "Jingjing Xu"
+                  }, 
+                  {
+                           "aff": "Xia Llc Hayward Ca Usa", 
+                           "name": "W K Warburton"
+                  }, 
+                  {
+                           "aff": "Harbin Institute Of Technology", 
+                           "name": "Yaxin Liu"
+                  }, 
+                  {
+                           "aff": "University Of Bern", 
+                           "name": "A Sieber"
+                  }, 
+                  {
+                           "aff": "Henkel", 
+                           "name": "T Herrington"
+                  }, 
+                  {
+                           "aff": "Medical University Of Vienna", 
+                           "name": "Markus Hengstschlager"
+                  }, 
+                  {
+                           "aff": "Harbin Institute Of Technology", 
+                           "name": "Daming Xu"
+                  }, 
+                  {
+                           "aff": "Sezione Infn Di Roma Roma Italy", 
+                           "name": "C Satriano"
+                  }
+         ]
+}
