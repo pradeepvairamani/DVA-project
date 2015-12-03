@@ -4,7 +4,7 @@
         <link rel="stylesheet" href="css/search.css" type="text/css">
     </head>
 
-    <form class="searchbox" action="">
+    <form class="searchbox" action="#" onsubmit="handle()">
         <input type="search" placeholder="search.." />
         <ul class="suggestions">
             <li><a href="#">Laura Laato</a></li>
@@ -13,4 +13,11 @@
             <li><a href="#">J F Philippe</a></li>
         </ul>
     </form>
+
+    <script>
+    function handle(e){
+        
+        return false; //Otherwise the form will be submitted
+    }
+    </script>
 </html>
