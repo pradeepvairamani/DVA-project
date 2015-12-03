@@ -41,8 +41,8 @@ function getnodeobj(group,name){
     obj.fixed = false;
     obj.id=getid();
     var auth = auth_gen.next().value;
-    console.log(auth);
-    console.log(auth);
+    // console.log(auth);
+    // console.log(auth);
     obj.aff = auth.aff;
     if( typeof name == 'undefined' ) {  obj.name = auth.name;/*"sub node " + obj.id;  */  }
     else{ obj.name = name; }
@@ -69,8 +69,8 @@ var tip = d3.tip()
   .html(function(d) {
     return "<strong>Name:</strong> <span style='color:red'>" + d.name + "</span><br><br>\
             <strong>Affiliation:</strong> <span style='color:red'>" + d.aff + "</span><br><br>\
-            <strong>Major FOS:</strong> <span style='color:red'>" + 'Applied Science' + "</span><br><br>\
             <strong>ExploreCount:</strong> <span style='color:red'>" + d.group + "</span>";
+            //<strong>Major FOS:</strong> <span style='color:red'>" + 'Applied Science' + "</span><br><br>\
             //<strong>Color:</strong> <span style='color:red'>" + color(d) + "</span>
   })
 
@@ -173,7 +173,12 @@ function tick() {
             return "black";            
         })
         .style("stroke-width", function(d){
-            if(d.id == global_id){ return 5; }
+            if(d.id == global_id){
+                $(".profile-usertitle-name").text(d.name);
+                $(".profile-usertitle-job").text(d.aff);
+                console.log(d);
+                return 5;
+            }
             return 1;            
         })
         .on('mouseover', tip.show)
